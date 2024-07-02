@@ -157,5 +157,53 @@
   },
   "posts/how-the-decision-tree-classifier-works/index.md": {
     "index.html": "70ed54c0"
+  },
+  "posts/top-5-operating-systems/index.md": {
+    "index.html": "5af13846"
+  },
+  "posts/data-imputation/index.md": {
+    "index.html": "879b834a"
+  },
+  "posts/time-series-intro/index.md": {
+    "index.html": "643cc358"
+  },
+  "posts/budget-ml-deploy-options/index.md": {
+    "index.html": "0bb8d59c"
+  },
+  "posts/creating-venvs/index.md": {
+    "index.html": "7f53187f"
+  },
+  "posts/programmer-puns/index.md": {
+    "index.html": "1adf084d"
+  },
+  "posts/ml-model-deployment/index.md": {
+    "index.html": "8202135d"
+  },
+  "posts/sklearn-unsupervised-learning/index.md": {
+    "index.html": "fd9801d2"
+  },
+  "posts/time-series-forecasting/index.md": {
+    "index.html": "46ca9a1f"
+  },
+  "posts/anova-for-feature-selection/75_bonus.md": {
+    "75_bonus.html": "b6ec2191"
+  },
+  "posts/rethinking-chatgpt/index.md": {
+    "index.html": "7cb39201"
+  },
+  "posts/bffill-and-ffill-for-handling-missing-data/index.md": {
+    "index.html": "a9b152fe"
+  },
+  "posts/mr-robot-softwares/index.md": {
+    "index.html": "296cfe9a"
+  },
+  "posts/time-series-analysis/index.md": {
+    "index.html": "36c5680c"
+  },
+  "posts/handling-imbalanced-datasets/handling_imbalanced_data.md": {
+    "handling_imbalanced_data.html": "115464c5"
+  },
+  "posts/anova-for-feature-selection/index.md": {
+    "index.html": "12b47f26"
   }
 }
