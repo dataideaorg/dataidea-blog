@@ -97,6 +97,6 @@ div.description {
   opacity: 70%;
 }
 
-.keywords {
+.keywords, .description {
   display: none;
 }

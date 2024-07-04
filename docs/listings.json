@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/classification-metrics/index.html",
       "/posts/anova-for-feature-selection/index.html",
       "/posts/what-is-supervised-machine-learning/index.html",
       "/posts/how-the-decision-tree-classifier-works/index.html",
