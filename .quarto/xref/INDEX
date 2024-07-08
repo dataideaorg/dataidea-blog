@@ -208,5 +208,83 @@
   },
   "posts/classification-metrics/index.md": {
     "index.html": "66db5e82"
+  },
+  "posts/2024/cost-function-in-machine-learning/index.md": {
+    "index.html": "31bb71c8"
+  },
+  "posts/2024/who-will-win-the-euros-2024/index.md": {
+    "index.html": "c11dbc75"
+  },
+  "posts/2024/data-imputation/index.md": {
+    "index.html": "a7ac0dd0"
+  },
+  "posts/2024/fpl_standings/index.md": {
+    "index.html": "87cbba67"
+  },
+  "posts/2024/new-programming-for-data-science-app/index.md": {
+    "index.html": "b3b0a7d1"
+  },
+  "posts/2024/time-series-intro/index.md": {
+    "index.html": "65f32b1a"
+  },
+  "posts/2024/what-is-supervised-machine-learning/index.md": {
+    "index.html": "06fb9f83"
+  },
+  "posts/2024/overview-of-machine-learning/index.md": {
+    "index.html": "fab6ee0f"
+  },
+  "posts/2024/sklearn-unsupervised-learning/index.md": {
+    "index.html": "778c1f39"
+  },
+  "posts/2024/time-series-forecasting/index.md": {
+    "index.html": "eb09b4d4"
+  },
+  "posts/2024/anova-for-feature-selection/index.md": {
+    "index.html": "dd66a6ff"
+  },
+  "posts/2024/classification-metrics/index.md": {
+    "index.html": "9e2eb98a"
+  },
+  "posts/2024/rethinking-chatgpt/index.md": {
+    "index.html": "80475a48"
+  },
+  "posts/2024/bffill-and-ffill-for-handling-missing-data/index.md": {
+    "index.html": "442143b9"
+  },
+  "posts/2024/openai_suspends_her/index.md": {
+    "index.html": "c1179e86"
+  },
+  "posts/2024/time-series-analysis/index.md": {
+    "index.html": "3c6c45e4"
+  },
+  "posts/2022/what-is-demographic-data/index.md": {
+    "index.html": "c64f60b9"
+  },
+  "posts/2022/handling-imbalanced-datasets/handling_imbalanced_data.md": {
+    "handling_imbalanced_data.html": "9a899a1d"
+  },
+  "posts/2022/how-the-decision-tree-classifier-works/index.md": {
+    "index.html": "91964c75"
+  },
+  "posts/2023/top-5-operating-systems/index.md": {
+    "index.html": "ddf38571"
+  },
+  "posts/2023/budget-ml-deploy-options/index.md": {
+    "index.html": "59cb9a82"
+  },
+  "posts/2023/creating-venvs/index.md": {
+    "index.html": "78b933d8"
+  },
+  "posts/2023/programmer-puns/index.md": {
+    "index.html": "71417b2a"
+  },
+  "posts/2023/ml-model-deployment/index.md": {
+    "index.html": "e4549b6c"
+  },
+  "posts/2023/mr-robot-softwares/index.md": {
+    "index.html": "65d560e5"
+  },
+  "posts/2024/understanding-knearest-neighbors-regression/index.md": {
+    "index.html": "8d5fb388"
   }
 }

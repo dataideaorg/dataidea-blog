@@ -80,7 +80,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -253,7 +254,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(25)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Announcements">Announcements <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Analysis">Data Analysis <span class="quarto-category-count">(16)</span></div><div class="category" data-category="EUROS">EUROS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Fun Stuff">Fun Stuff <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Movies">Movies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Other">Other <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Software">Software <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(26)</span></div><div class="category" data-category="2022">2022 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="2023">2023 <span class="quarto-category-count">(4)</span></div><div class="category" data-category="2024">2024 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Announcements">Announcements <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Analysis">Data Analysis <span class="quarto-category-count">(16)</span></div><div class="category" data-category="EUROS">EUROS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Fun Stuff">Fun Stuff <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Movies">Movies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Other">Other <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Software">Software <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -267,18 +268,54 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Data Analysis,Machine Learning" data-listing-date-sort="1720040400000" data-listing-file-modified-sort="1720099156785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="2000">
+<div class="quarto-post image-right" data-index="0" data-categories="2024,Machine Learning" data-listing-date-sort="1720386000000" data-listing-file-modified-sort="1720469591662" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="874">
 <div class="thumbnail">
-<p><a href="./posts/classification-metrics/index.html" class="no-external"></a></p><a href="./posts/classification-metrics/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/classification-metrics/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/classification-metrics/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/understanding-knearest-neighbors-regression/index.html" class="no-external"></a></p><a href="./posts/2024/understanding-knearest-neighbors-regression/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/understanding-knearest-neighbors-regression/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/understanding-knearest-neighbors-regression/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/classification-metrics/index.html" class="no-external">Classification Metrics Practice</a>
+<a href="./posts/2024/understanding-knearest-neighbors-regression/index.html" class="no-external">Understanding K-Nearest Neighbors (KNN) Regression</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/classification-metrics/index.html" class="no-external"></a>
+<a href="./posts/2024/understanding-knearest-neighbors-regression/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('2024'); return false;">
+2024
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
+Machine Learning
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2024/understanding-knearest-neighbors-regression/index.html" class="no-external">Learn Programming for Data Science</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2024/understanding-knearest-neighbors-regression/index.html" class="no-external">
+<div class="listing-date">
+Jul 8, 2024
+</div>
+<div class="listing-author">
+Juma Shafara
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Data Analysis,Machine Learning" data-listing-date-sort="1720040400000" data-listing-file-modified-sort="1720466943894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="2000">
+<div class="thumbnail">
+<p><a href="./posts/2024/classification-metrics/index.html" class="no-external"></a></p><a href="./posts/2024/classification-metrics/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/classification-metrics/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/classification-metrics/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024/classification-metrics/index.html" class="no-external">Classification Metrics Practice</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024/classification-metrics/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -289,11 +326,11 @@ Machine Learning
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/classification-metrics/index.html" class="no-external">Learn Programming for Data Science. Demonstrate loading, preparing, training, and evaluating a machine learning model using the Iris dataset</a>
+<a href="./posts/2024/classification-metrics/index.html" class="no-external">Learn Programming for Data Science. Demonstrate loading, preparing, training, and evaluating a machine learning model using the Iris dataset</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/classification-metrics/index.html" class="no-external">
+<a href="./posts/2024/classification-metrics/index.html" class="no-external">
 <div class="listing-date">
 Jul 4, 2024
 </div>
@@ -303,18 +340,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Data Analysis" data-listing-date-sort="1719867600000" data-listing-file-modified-sort="1719925753173" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1493">
+<div class="quarto-post image-right" data-index="2" data-categories="Data Analysis" data-listing-date-sort="1719867600000" data-listing-file-modified-sort="1719925753173" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1493">
 <div class="thumbnail">
-<p><a href="./posts/anova-for-feature-selection/index.html" class="no-external"></a></p><a href="./posts/anova-for-feature-selection/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/anova-for-feature-selection/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/anova-for-feature-selection/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/anova-for-feature-selection/index.html" class="no-external"></a></p><a href="./posts/2024/anova-for-feature-selection/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/anova-for-feature-selection/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/anova-for-feature-selection/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/anova-for-feature-selection/index.html" class="no-external">ANOVA for Feature Selection</a>
+<a href="./posts/2024/anova-for-feature-selection/index.html" class="no-external">ANOVA for Feature Selection</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/anova-for-feature-selection/index.html" class="no-external"></a>
+<a href="./posts/2024/anova-for-feature-selection/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -322,11 +359,11 @@ Data Analysis
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/anova-for-feature-selection/index.html" class="no-external">In this notebook, we demonstrate how ANOVA (Analysis of Variance) can be used to identify better features for machine learning models</a>
+<a href="./posts/2024/anova-for-feature-selection/index.html" class="no-external">In this notebook, we demonstrate how ANOVA (Analysis of Variance) can be used to identify better features for machine learning models</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/anova-for-feature-selection/index.html" class="no-external">
+<a href="./posts/2024/anova-for-feature-selection/index.html" class="no-external">
 <div class="listing-date">
 Jul 2, 2024
 </div>
@@ -336,18 +373,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Data Analysis,Machine Learning" data-listing-date-sort="1719262800000" data-listing-file-modified-sort="1719307105996" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="907">
+<div class="quarto-post image-right" data-index="3" data-categories="Data Analysis,Machine Learning" data-listing-date-sort="1719262800000" data-listing-file-modified-sort="1719307105996" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="907">
 <div class="thumbnail">
-<p><a href="./posts/what-is-supervised-machine-learning/index.html" class="no-external"></a></p><a href="./posts/what-is-supervised-machine-learning/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/what-is-supervised-machine-learning/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/what-is-supervised-machine-learning/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/what-is-supervised-machine-learning/index.html" class="no-external"></a></p><a href="./posts/2024/what-is-supervised-machine-learning/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/what-is-supervised-machine-learning/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/what-is-supervised-machine-learning/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/what-is-supervised-machine-learning/index.html" class="no-external">What is Supervised Machine Learning</a>
+<a href="./posts/2024/what-is-supervised-machine-learning/index.html" class="no-external">What is Supervised Machine Learning</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/what-is-supervised-machine-learning/index.html" class="no-external"></a>
+<a href="./posts/2024/what-is-supervised-machine-learning/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -358,47 +395,11 @@ Machine Learning
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/what-is-supervised-machine-learning/index.html" class="no-external">Supervised machine learning is a subfield of machine learning where an algorithm learns from labeled training data to make predictions or decisions without being explicitly…</a>
+<a href="./posts/2024/what-is-supervised-machine-learning/index.html" class="no-external">Supervised machine learning is a subfield of machine learning where an algorithm learns from labeled training data to make predictions or decisions without being explicitly…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/what-is-supervised-machine-learning/index.html" class="no-external">
-<div class="listing-date">
-Jun 25, 2024
-</div>
-<div class="listing-author">
-Juma Shafara
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Data Analysis,Machine Learning" data-listing-date-sort="1719262800000" data-listing-file-modified-sort="1719311680053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1067">
-<div class="thumbnail">
-<p><a href="./posts/how-the-decision-tree-classifier-works/index.html" class="no-external"></a></p><a href="./posts/how-the-decision-tree-classifier-works/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/how-the-decision-tree-classifier-works/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/how-the-decision-tree-classifier-works/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/how-the-decision-tree-classifier-works/index.html" class="no-external">How The Decision Tree Classifiers Works</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/how-the-decision-tree-classifier-works/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
-Data Analysis
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
-Machine Learning
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/how-the-decision-tree-classifier-works/index.html" class="no-external">Decision tree classifiers are a type of supervised machine learning algorithm used for classification tasks. They are popular due to their simplicity and interpretability.…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/how-the-decision-tree-classifier-works/index.html" class="no-external">
+<a href="./posts/2024/what-is-supervised-machine-learning/index.html" class="no-external">
 <div class="listing-date">
 Jun 25, 2024
 </div>
@@ -410,16 +411,16 @@ Juma Shafara
 </div>
 <div class="quarto-post image-right" data-index="4" data-categories="Announcements" data-listing-date-sort="1718917200000" data-listing-file-modified-sort="1718984083325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
 <div class="thumbnail">
-<p><a href="./posts/new-programming-for-data-science-app/index.html" class="no-external"></a></p><a href="./posts/new-programming-for-data-science-app/index.html" class="no-external">
+<p><a href="./posts/2024/new-programming-for-data-science-app/index.html" class="no-external"></a></p><a href="./posts/2024/new-programming-for-data-science-app/index.html" class="no-external">
 <p class="card-img-top"><img src="posts/new-programming-for-data-science-app/app.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/new-programming-for-data-science-app/index.html" class="no-external"></a></p>
+</a><p><a href="./posts/2024/new-programming-for-data-science-app/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/new-programming-for-data-science-app/index.html" class="no-external">Introducing Our New Programming for Data Science App!</a>
+<a href="./posts/2024/new-programming-for-data-science-app/index.html" class="no-external">Introducing Our New Programming for Data Science App!</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/new-programming-for-data-science-app/index.html" class="no-external"></a>
+<a href="./posts/2024/new-programming-for-data-science-app/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Announcements'); return false;">
@@ -427,11 +428,11 @@ Announcements
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/new-programming-for-data-science-app/index.html" class="no-external">We are thrilled to announce the launch of our brand-new app designed specifically for learning “Programming for Data Science.” Whether you’re diving into Python, exploring…</a>
+<a href="./posts/2024/new-programming-for-data-science-app/index.html" class="no-external">We are thrilled to announce the launch of our brand-new app designed specifically for learning “Programming for Data Science.” Whether you’re diving into Python, exploring…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/new-programming-for-data-science-app/index.html" class="no-external">
+<a href="./posts/2024/new-programming-for-data-science-app/index.html" class="no-external">
 <div class="listing-date">
 Jun 21, 2024
 </div>
@@ -443,16 +444,16 @@ Juma Shafara
 </div>
 <div class="quarto-post image-right" data-index="5" data-categories="Machine Learning,Data Analysis" data-listing-date-sort="1718053200000" data-listing-file-modified-sort="1718115357988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="753">
 <div class="thumbnail">
-<p><a href="./posts/cost-function-in-machine-learning/index.html" class="no-external"></a></p><a href="./posts/cost-function-in-machine-learning/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/cost-function-in-machine-learning/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/cost-function-in-machine-learning/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/cost-function-in-machine-learning/index.html" class="no-external"></a></p><a href="./posts/2024/cost-function-in-machine-learning/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/cost-function-in-machine-learning/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/cost-function-in-machine-learning/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/cost-function-in-machine-learning/index.html" class="no-external">Understanding the Cost Function in Linear Regression</a>
+<a href="./posts/2024/cost-function-in-machine-learning/index.html" class="no-external">Understanding the Cost Function in Linear Regression</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/cost-function-in-machine-learning/index.html" class="no-external"></a>
+<a href="./posts/2024/cost-function-in-machine-learning/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
@@ -463,11 +464,11 @@ Data Analysis
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/cost-function-in-machine-learning/index.html" class="no-external">Linear regression is a fundamental algorithm in machine learning and statistics, used to model the relationship between a dependent variable and one or more independent…</a>
+<a href="./posts/2024/cost-function-in-machine-learning/index.html" class="no-external">Linear regression is a fundamental algorithm in machine learning and statistics, used to model the relationship between a dependent variable and one or more independent…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/cost-function-in-machine-learning/index.html" class="no-external">
+<a href="./posts/2024/cost-function-in-machine-learning/index.html" class="no-external">
 <div class="listing-date">
 Jun 11, 2024
 </div>
@@ -479,16 +480,16 @@ Juma
 </div>
 <div class="quarto-post image-right" data-index="6" data-categories="EUROS" data-listing-date-sort="1718053200000" data-listing-file-modified-sort="1718101166493" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="368">
 <div class="thumbnail">
-<p><a href="./posts/who-will-win-the-euros-2024/index.html" class="no-external"></a></p><a href="./posts/who-will-win-the-euros-2024/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/who-will-win-the-euros-2024/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/who-will-win-the-euros-2024/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/who-will-win-the-euros-2024/index.html" class="no-external"></a></p><a href="./posts/2024/who-will-win-the-euros-2024/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/who-will-win-the-euros-2024/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/who-will-win-the-euros-2024/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/who-will-win-the-euros-2024/index.html" class="no-external">Who Will Win Euro 2024? The Opta Predictions</a>
+<a href="./posts/2024/who-will-win-the-euros-2024/index.html" class="no-external">Who Will Win Euro 2024? The Opta Predictions</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/who-will-win-the-euros-2024/index.html" class="no-external"></a>
+<a href="./posts/2024/who-will-win-the-euros-2024/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('EUROS'); return false;">
@@ -496,11 +497,11 @@ EUROS
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/who-will-win-the-euros-2024/index.html" class="no-external">Euro 2024 is set to be a thrilling tournament, and the Opta Supercomputer’s pre-tournament predictions give us a fascinating insight into the likely outcomes. Here’s a…</a>
+<a href="./posts/2024/who-will-win-the-euros-2024/index.html" class="no-external">Euro 2024 is set to be a thrilling tournament, and the Opta Supercomputer’s pre-tournament predictions give us a fascinating insight into the likely outcomes. Here’s a…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/who-will-win-the-euros-2024/index.html" class="no-external">
+<a href="./posts/2024/who-will-win-the-euros-2024/index.html" class="no-external">
 <div class="listing-date">
 Jun 11, 2024
 </div>
@@ -512,16 +513,16 @@ Juma
 </div>
 <div class="quarto-post image-right" data-index="7" data-categories="Data Analysis,Machine Learning,AI" data-listing-date-sort="1717534800000" data-listing-file-modified-sort="1717617277600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="27" data-listing-word-count-sort="5389">
 <div class="thumbnail">
-<p><a href="./posts/overview-of-machine-learning/index.html" class="no-external"></a></p><a href="./posts/overview-of-machine-learning/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/overview-of-machine-learning/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/overview-of-machine-learning/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/overview-of-machine-learning/index.html" class="no-external"></a></p><a href="./posts/2024/overview-of-machine-learning/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/overview-of-machine-learning/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/overview-of-machine-learning/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/overview-of-machine-learning/index.html" class="no-external">Overview of Machine Learning</a>
+<a href="./posts/2024/overview-of-machine-learning/index.html" class="no-external">Overview of Machine Learning</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/overview-of-machine-learning/index.html" class="no-external"></a>
+<a href="./posts/2024/overview-of-machine-learning/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -535,11 +536,11 @@ AI
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/overview-of-machine-learning/index.html" class="no-external">Machine learning (ML) is a branch of artificial intelligence (AI) and computer science that focuses on using data and algorithms to enable AI to imitate the way that humans…</a>
+<a href="./posts/2024/overview-of-machine-learning/index.html" class="no-external">Machine learning (ML) is a branch of artificial intelligence (AI) and computer science that focuses on using data and algorithms to enable AI to imitate the way that humans…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/overview-of-machine-learning/index.html" class="no-external">
+<a href="./posts/2024/overview-of-machine-learning/index.html" class="no-external">
 <div class="listing-date">
 Jun 5, 2024
 </div>
@@ -549,51 +550,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Data Analysis" data-listing-date-sort="1717448400000" data-listing-file-modified-sort="1717531551826" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="813">
+<div class="quarto-post image-right" data-index="8" data-categories="AI" data-listing-date-sort="1717448400000" data-listing-file-modified-sort="1717515385549" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1276">
 <div class="thumbnail">
-<p><a href="./posts/what-is-demographic-data/index.html" class="no-external"></a></p><a href="./posts/what-is-demographic-data/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/what-is-demographic-data/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/what-is-demographic-data/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/rethinking-chatgpt/index.html" class="no-external"></a></p><a href="./posts/2024/rethinking-chatgpt/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/rethinking-chatgpt/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/rethinking-chatgpt/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/what-is-demographic-data/index.html" class="no-external">What is Demographic Data, Understanding and Utilizing It</a>
+<a href="./posts/2024/rethinking-chatgpt/index.html" class="no-external">Why You Should Use ChatGPT Sparingly.</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/what-is-demographic-data/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
-Data Analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/what-is-demographic-data/index.html" class="no-external">Demographic data helps us to deepen our knowledge of the target audience and to create buyer personas. It is primarily used to strategically tailor offerings to specific…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/what-is-demographic-data/index.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2024
-</div>
-<div class="listing-author">
-Juma Shafara
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="AI" data-listing-date-sort="1717448400000" data-listing-file-modified-sort="1717515385549" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1276">
-<div class="thumbnail">
-<p><a href="./posts/rethinking-chatgpt/index.html" class="no-external"></a></p><a href="./posts/rethinking-chatgpt/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/rethinking-chatgpt/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/rethinking-chatgpt/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/rethinking-chatgpt/index.html" class="no-external">Why You Should Use ChatGPT Sparingly.</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/rethinking-chatgpt/index.html" class="no-external"></a>
+<a href="./posts/2024/rethinking-chatgpt/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
@@ -601,11 +569,11 @@ AI
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/rethinking-chatgpt/index.html" class="no-external">Artificial Intelligence (AI) has revolutionized the way we interact with technology, making many tasks more efficient and accessible. Among the AI applications, chatbots and…</a>
+<a href="./posts/2024/rethinking-chatgpt/index.html" class="no-external">Artificial Intelligence (AI) has revolutionized the way we interact with technology, making many tasks more efficient and accessible. Among the AI applications, chatbots and…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/rethinking-chatgpt/index.html" class="no-external">
+<a href="./posts/2024/rethinking-chatgpt/index.html" class="no-external">
 <div class="listing-date">
 Jun 4, 2024
 </div>
@@ -615,18 +583,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="Data Analysis" data-listing-date-sort="1716411600000" data-listing-file-modified-sort="1716522941375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="620">
+<div class="quarto-post image-right" data-index="9" data-categories="Data Analysis" data-listing-date-sort="1716411600000" data-listing-file-modified-sort="1716522941375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="620">
 <div class="thumbnail">
-<p><a href="./posts/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external"></a></p><a href="./posts/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/bffill-and-ffill-for-handling-missing-data/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external"></a></p><a href="./posts/2024/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/bffill-and-ffill-for-handling-missing-data/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external">Handling Missing Data in Pandas, When to Use <code>bfill</code> and <code>ffill</code> Methods</a>
+<a href="./posts/2024/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external">Handling Missing Data in Pandas, When to Use <code>bfill</code> and <code>ffill</code> Methods</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external"></a>
+<a href="./posts/2024/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -634,11 +602,11 @@ Data Analysis
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external">The <code>bfill</code> (backward fill) and <code>ffill</code> (forward fill) methods are used in data analysis and manipulation, particularly for handling missing data in pandas DataFrames or Series.…</a>
+<a href="./posts/2024/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external">The <code>bfill</code> (backward fill) and <code>ffill</code> (forward fill) methods are used in data analysis and manipulation, particularly for handling missing data in pandas DataFrames or Series.…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external">
+<a href="./posts/2024/bffill-and-ffill-for-handling-missing-data/index.html" class="no-external">
 <div class="listing-date">
 May 23, 2024
 </div>
@@ -648,18 +616,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="Data Analysis" data-listing-date-sort="1716325200000" data-listing-file-modified-sort="1716365357066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4212">
+<div class="quarto-post image-right" data-index="10" data-categories="Data Analysis" data-listing-date-sort="1716325200000" data-listing-file-modified-sort="1716365357066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4212">
 <div class="thumbnail">
-<p><a href="./posts/sklearn-unsupervised-learning/index.html" class="no-external"></a></p><a href="./posts/sklearn-unsupervised-learning/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/sklearn-unsupervised-learning/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/sklearn-unsupervised-learning/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/sklearn-unsupervised-learning/index.html" class="no-external"></a></p><a href="./posts/2024/sklearn-unsupervised-learning/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/sklearn-unsupervised-learning/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/sklearn-unsupervised-learning/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/sklearn-unsupervised-learning/index.html" class="no-external">Unsupervised Learning using Scikit Learn</a>
+<a href="./posts/2024/sklearn-unsupervised-learning/index.html" class="no-external">Unsupervised Learning using Scikit Learn</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/sklearn-unsupervised-learning/index.html" class="no-external"></a>
+<a href="./posts/2024/sklearn-unsupervised-learning/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -667,11 +635,11 @@ Data Analysis
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/sklearn-unsupervised-learning/index.html" class="no-external">The following topics are covered in this tutorial:</a>
+<a href="./posts/2024/sklearn-unsupervised-learning/index.html" class="no-external">The following topics are covered in this tutorial:</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/sklearn-unsupervised-learning/index.html" class="no-external">
+<a href="./posts/2024/sklearn-unsupervised-learning/index.html" class="no-external">
 <div class="listing-date">
 May 22, 2024
 </div>
@@ -681,18 +649,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Movies" data-listing-date-sort="1716325200000" data-listing-file-modified-sort="1716361540728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="463">
+<div class="quarto-post image-right" data-index="11" data-categories="Movies" data-listing-date-sort="1716325200000" data-listing-file-modified-sort="1716361540728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="463">
 <div class="thumbnail">
-<p><a href="./posts/openai_suspends_her/index.html" class="no-external"></a></p><a href="./posts/openai_suspends_her/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/openai_suspends_her/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/openai_suspends_her/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/openai_suspends_her/index.html" class="no-external"></a></p><a href="./posts/2024/openai_suspends_her/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/openai_suspends_her/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/openai_suspends_her/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/openai_suspends_her/index.html" class="no-external">OpenAI Suspends ChatGPT Voice Allegedly Mimicking Scarlett Johansson in “Her”</a>
+<a href="./posts/2024/openai_suspends_her/index.html" class="no-external">OpenAI Suspends ChatGPT Voice Allegedly Mimicking Scarlett Johansson in “Her”</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/openai_suspends_her/index.html" class="no-external"></a>
+<a href="./posts/2024/openai_suspends_her/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Movies'); return false;">
@@ -700,11 +668,11 @@ Movies
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/openai_suspends_her/index.html" class="no-external">OpenAI is suspending its ChatGPT voice, Sky, after users claimed it resembled Scarlett Johansson’s voice from the 2013 film <em>Her</em>.</a>
+<a href="./posts/2024/openai_suspends_her/index.html" class="no-external">OpenAI is suspending its ChatGPT voice, Sky, after users claimed it resembled Scarlett Johansson’s voice from the 2013 film <em>Her</em>.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/openai_suspends_her/index.html" class="no-external">
+<a href="./posts/2024/openai_suspends_her/index.html" class="no-external">
 <div class="listing-date">
 May 22, 2024
 </div>
@@ -714,18 +682,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="Data Analysis" data-listing-date-sort="1715979600000" data-listing-file-modified-sort="1716009121313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="551">
+<div class="quarto-post image-right" data-index="12" data-categories="Data Analysis" data-listing-date-sort="1715979600000" data-listing-file-modified-sort="1716009121313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="551">
 <div class="thumbnail">
-<p><a href="./posts/time-series-intro/index.html" class="no-external"></a></p><a href="./posts/time-series-intro/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/time-series-intro/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/time-series-intro/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/time-series-intro/index.html" class="no-external"></a></p><a href="./posts/2024/time-series-intro/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/time-series-intro/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/time-series-intro/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/time-series-intro/index.html" class="no-external">What is Time Series</a>
+<a href="./posts/2024/time-series-intro/index.html" class="no-external">What is Time Series</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/time-series-intro/index.html" class="no-external"></a>
+<a href="./posts/2024/time-series-intro/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -733,11 +701,11 @@ Data Analysis
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/time-series-intro/index.html" class="no-external">Any data recorded with some fixed interval of time is called as time series data. This fixed interval can be hourly, daily, monthly or yearly. e.g.&nbsp;hourly temperature…</a>
+<a href="./posts/2024/time-series-intro/index.html" class="no-external">Any data recorded with some fixed interval of time is called as time series data. This fixed interval can be hourly, daily, monthly or yearly. e.g.&nbsp;hourly temperature…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/time-series-intro/index.html" class="no-external">
+<a href="./posts/2024/time-series-intro/index.html" class="no-external">
 <div class="listing-date">
 May 18, 2024
 </div>
@@ -747,18 +715,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="Data Analysis" data-listing-date-sort="1715979600000" data-listing-file-modified-sort="1716009241572" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="566">
+<div class="quarto-post image-right" data-index="13" data-categories="Data Analysis" data-listing-date-sort="1715979600000" data-listing-file-modified-sort="1716009241572" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="566">
 <div class="thumbnail">
-<p><a href="./posts/time-series-forecasting/index.html" class="no-external"></a></p><a href="./posts/time-series-forecasting/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/time-series-forecasting/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/time-series-forecasting/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/time-series-forecasting/index.html" class="no-external"></a></p><a href="./posts/2024/time-series-forecasting/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/time-series-forecasting/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/time-series-forecasting/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/time-series-forecasting/index.html" class="no-external">Time Series Forecasting</a>
+<a href="./posts/2024/time-series-forecasting/index.html" class="no-external">Time Series Forecasting</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/time-series-forecasting/index.html" class="no-external"></a>
+<a href="./posts/2024/time-series-forecasting/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -766,11 +734,11 @@ Data Analysis
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/time-series-forecasting/index.html" class="no-external">This is part 3 of our Time Series Analysis Series, Part 2 introduces you to doing time series analysis. The link to part 2 is here</a>
+<a href="./posts/2024/time-series-forecasting/index.html" class="no-external">This is part 3 of our Time Series Analysis Series, Part 2 introduces you to doing time series analysis. The link to part 2 is here</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/time-series-forecasting/index.html" class="no-external">
+<a href="./posts/2024/time-series-forecasting/index.html" class="no-external">
 <div class="listing-date">
 May 18, 2024
 </div>
@@ -780,18 +748,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="Data Analysis" data-listing-date-sort="1715979600000" data-listing-file-modified-sort="1716009623785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1398">
+<div class="quarto-post image-right" data-index="14" data-categories="Data Analysis" data-listing-date-sort="1715979600000" data-listing-file-modified-sort="1716009623785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1398">
 <div class="thumbnail">
-<p><a href="./posts/time-series-analysis/index.html" class="no-external"></a></p><a href="./posts/time-series-analysis/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/time-series-analysis/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/time-series-analysis/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/time-series-analysis/index.html" class="no-external"></a></p><a href="./posts/2024/time-series-analysis/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/time-series-analysis/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/time-series-analysis/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/time-series-analysis/index.html" class="no-external">Time Series Analysis</a>
+<a href="./posts/2024/time-series-analysis/index.html" class="no-external">Time Series Analysis</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/time-series-analysis/index.html" class="no-external"></a>
+<a href="./posts/2024/time-series-analysis/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -799,11 +767,11 @@ Data Analysis
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/time-series-analysis/index.html" class="no-external">This is part 2 of our Time Series Analysis Series, Part 1 introduces you to what time series is. The link to part 1 is here</a>
+<a href="./posts/2024/time-series-analysis/index.html" class="no-external">This is part 2 of our Time Series Analysis Series, Part 1 introduces you to what time series is. The link to part 1 is here</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/time-series-analysis/index.html" class="no-external">
+<a href="./posts/2024/time-series-analysis/index.html" class="no-external">
 <div class="listing-date">
 May 18, 2024
 </div>
@@ -813,132 +781,18 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="AI,Software,Other" data-listing-date-sort="1715634000000" data-listing-file-modified-sort="1716008437855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="706">
+<div class="quarto-post image-right" data-index="15" data-categories="Fun Stuff" data-listing-date-sort="1714165200000" data-listing-file-modified-sort="1715846421891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="633">
 <div class="thumbnail">
-<p><a href="./posts/budget-ml-deploy-options/index.html" class="no-external"></a></p><a href="./posts/budget-ml-deploy-options/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/budget-ml-deploy-options/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/budget-ml-deploy-options/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/fpl_standings/index.html" class="no-external"></a></p><a href="./posts/2024/fpl_standings/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/fpl_standings/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/fpl_standings/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/budget-ml-deploy-options/index.html" class="no-external">Budget-Friendly Options for Deploying Machine Learning Models</a>
+<a href="./posts/2024/fpl_standings/index.html" class="no-external">Update on DATAIDEA Fantasy Football League Standings</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/budget-ml-deploy-options/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Software'); return false;">
-Software
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Other'); return false;">
-Other
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/budget-ml-deploy-options/index.html" class="no-external">Deploying machine learning models doesn’t have to break the bank. If you’re working within a budget, there are several cost-effective options available that still provide…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/budget-ml-deploy-options/index.html" class="no-external">
-<div class="listing-date">
-May 14, 2024
-</div>
-<div class="listing-author">
-Juma Shafara
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="17" data-categories="Data Analysis,AI,Software,Other" data-listing-date-sort="1715634000000" data-listing-file-modified-sort="1715846467782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="692">
-<div class="thumbnail">
-<p><a href="./posts/ml-model-deployment/index.html" class="no-external"></a></p><a href="./posts/ml-model-deployment/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/ml-model-deployment/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/ml-model-deployment/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/ml-model-deployment/index.html" class="no-external">Exploring Options for Deploying Machine Learning Models</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/ml-model-deployment/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
-Data Analysis
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Software'); return false;">
-Software
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Other'); return false;">
-Other
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/ml-model-deployment/index.html" class="no-external">Deploying machine learning models is a crucial step in turning your data science projects into practical, real-world applications. With a variety of deployment options…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/ml-model-deployment/index.html" class="no-external">
-<div class="listing-date">
-May 14, 2024
-</div>
-<div class="listing-author">
-Juma Shafara
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="18" data-categories="Data Analysis" data-listing-date-sort="1715461200000" data-listing-file-modified-sort="1715846459122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2660">
-<div class="thumbnail">
-<p><a href="./posts/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external"></a></p><a href="./posts/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external">
-<p class="card-img-top"><img src="posts/handling-imbalanced-datasets/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external">Handling Imbalanced Datasets</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
-Data Analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external">Handling imbalanced datasets is a common challenge in machine learning, especially in classification tasks where one class significantly outnumbers the other(s). Let’s go…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external">
-<div class="listing-date">
-May 12, 2024
-</div>
-<div class="listing-author">
-Juma Shafara
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="19" data-categories="Fun Stuff" data-listing-date-sort="1714165200000" data-listing-file-modified-sort="1715846421891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="633">
-<div class="thumbnail">
-<p><a href="./posts/fpl_standings/index.html" class="no-external"></a></p><a href="./posts/fpl_standings/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/fpl_standings/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/fpl_standings/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fpl_standings/index.html" class="no-external">Update on DATAIDEA Fantasy Football League Standings</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/fpl_standings/index.html" class="no-external"></a>
+<a href="./posts/2024/fpl_standings/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Fun Stuff'); return false;">
@@ -946,11 +800,11 @@ Fun Stuff
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/fpl_standings/index.html" class="no-external">Hey Fantasy Football aficionados,</a>
+<a href="./posts/2024/fpl_standings/index.html" class="no-external">Hey Fantasy Football aficionados,</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/fpl_standings/index.html" class="no-external">
+<a href="./posts/2024/fpl_standings/index.html" class="no-external">
 <div class="listing-date">
 Apr 27, 2024
 </div>
@@ -960,18 +814,135 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="Data Analysis,Software,Other" data-listing-date-sort="1713992400000" data-listing-file-modified-sort="1715952046856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="659">
+<div class="quarto-post image-right" data-index="16" data-categories="Data Analysis" data-listing-date-sort="1713906000000" data-listing-file-modified-sort="1717511757582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2213">
 <div class="thumbnail">
-<p><a href="./posts/creating-venvs/index.html" class="no-external"></a></p><a href="./posts/creating-venvs/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/creating-venvs/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/creating-venvs/index.html" class="no-external"></a></p>
+<p><a href="./posts/2024/data-imputation/index.html" class="no-external"></a></p><a href="./posts/2024/data-imputation/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2024/data-imputation/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2024/data-imputation/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/creating-venvs/index.html" class="no-external">Python Virtual Environments</a>
+<a href="./posts/2024/data-imputation/index.html" class="no-external">Handling Missing Data</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/creating-venvs/index.html" class="no-external"></a>
+<a href="./posts/2024/data-imputation/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
+Data Analysis
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2024/data-imputation/index.html" class="no-external">Missing data is a common hurdle in data analysis, impacting the reliability of insights drawn from datasets. Python offers a range of solutions to address this issue, some…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2024/data-imputation/index.html" class="no-external">
+<div class="listing-date">
+Apr 24, 2024
+</div>
+<div class="listing-author">
+Juma Shafara
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="AI,Software,Other" data-listing-date-sort="1684011600000" data-listing-file-modified-sort="1720467010130" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="706">
+<div class="thumbnail">
+<p><a href="./posts/2023/budget-ml-deploy-options/index.html" class="no-external"></a></p><a href="./posts/2023/budget-ml-deploy-options/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2023/budget-ml-deploy-options/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2023/budget-ml-deploy-options/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023/budget-ml-deploy-options/index.html" class="no-external">Budget-Friendly Options for Deploying Machine Learning Models</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023/budget-ml-deploy-options/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
+AI
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Software'); return false;">
+Software
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Other'); return false;">
+Other
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2023/budget-ml-deploy-options/index.html" class="no-external">Deploying machine learning models doesn’t have to break the bank. If you’re working within a budget, there are several cost-effective options available that still provide…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2023/budget-ml-deploy-options/index.html" class="no-external">
+<div class="listing-date">
+May 14, 2023
+</div>
+<div class="listing-author">
+Juma Shafara
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="Data Analysis,AI,Software,Other,2023" data-listing-date-sort="1684011600000" data-listing-file-modified-sort="1720467042998" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="692">
+<div class="thumbnail">
+<p><a href="./posts/2023/ml-model-deployment/index.html" class="no-external"></a></p><a href="./posts/2023/ml-model-deployment/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2023/ml-model-deployment/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2023/ml-model-deployment/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023/ml-model-deployment/index.html" class="no-external">Exploring Options for Deploying Machine Learning Models</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023/ml-model-deployment/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
+Data Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
+AI
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Software'); return false;">
+Software
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Other'); return false;">
+Other
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('2023'); return false;">
+2023
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2023/ml-model-deployment/index.html" class="no-external">Deploying machine learning models is a crucial step in turning your data science projects into practical, real-world applications. With a variety of deployment options…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2023/ml-model-deployment/index.html" class="no-external">
+<div class="listing-date">
+May 14, 2023
+</div>
+<div class="listing-author">
+Juma Shafara
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="Data Analysis,Software,Other" data-listing-date-sort="1682370000000" data-listing-file-modified-sort="1720467021598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="659">
+<div class="thumbnail">
+<p><a href="./posts/2023/creating-venvs/index.html" class="no-external"></a></p><a href="./posts/2023/creating-venvs/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2023/creating-venvs/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2023/creating-venvs/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023/creating-venvs/index.html" class="no-external">Python Virtual Environments</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023/creating-venvs/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -985,13 +956,13 @@ Other
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/creating-venvs/index.html" class="no-external">In the vast ecosystem of Python programming, managing dependencies can sometimes be a daunting task. As projects grow in complexity, so does the need for a clean and…</a>
+<a href="./posts/2023/creating-venvs/index.html" class="no-external">In the vast ecosystem of Python programming, managing dependencies can sometimes be a daunting task. As projects grow in complexity, so does the need for a clean and…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/creating-venvs/index.html" class="no-external">
+<a href="./posts/2023/creating-venvs/index.html" class="no-external">
 <div class="listing-date">
-Apr 25, 2024
+Apr 25, 2023
 </div>
 <div class="listing-author">
 Juma Shafara
@@ -999,18 +970,165 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="Data Analysis" data-listing-date-sort="1713906000000" data-listing-file-modified-sort="1717511757582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2213">
+<div class="quarto-post image-right" data-index="20" data-categories="Fun Stuff,2023" data-listing-date-sort="1681938000000" data-listing-file-modified-sort="1720467226621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="541">
 <div class="thumbnail">
-<p><a href="./posts/data-imputation/index.html" class="no-external"></a></p><a href="./posts/data-imputation/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/data-imputation/thumbnail.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/data-imputation/index.html" class="no-external"></a></p>
+<p><a href="./posts/2023/programmer-puns/index.html" class="no-external"></a></p><a href="./posts/2023/programmer-puns/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2023/programmer-puns/shrimply_the_best.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2023/programmer-puns/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/data-imputation/index.html" class="no-external">Handling Missing Data</a>
+<a href="./posts/2023/programmer-puns/index.html" class="no-external">Puns Only Programmers Will Get</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/data-imputation/index.html" class="no-external"></a>
+<a href="./posts/2023/programmer-puns/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Fun Stuff'); return false;">
+Fun Stuff
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('2023'); return false;">
+2023
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2023/programmer-puns/index.html" class="no-external">What are the best puns? Definitely the ones only a specific group of people will understand and enjoy. Especially in the era we’re living in, we need to feel like a family…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2023/programmer-puns/index.html" class="no-external">
+<div class="listing-date">
+Apr 20, 2023
+</div>
+<div class="listing-author">
+Juma Shafara
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="Software,2023" data-listing-date-sort="1676840400000" data-listing-file-modified-sort="1720467070070" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1059">
+<div class="thumbnail">
+<p><a href="./posts/2023/mr-robot-softwares/index.html" class="no-external"></a></p><a href="./posts/2023/mr-robot-softwares/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2023/mr-robot-softwares/mr_robot.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2023/mr-robot-softwares/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023/mr-robot-softwares/index.html" class="no-external">All Software used in Mr.&nbsp;Robot</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023/mr-robot-softwares/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Software'); return false;">
+Software
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('2023'); return false;">
+2023
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2023/mr-robot-softwares/index.html" class="no-external">Here’s a list of the most popular softwares used by the hackers in the Emmy and Golden Globe award winning drama/thriller series Mr.&nbsp;Robot.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2023/mr-robot-softwares/index.html" class="no-external">
+<div class="listing-date">
+Feb 20, 2023
+</div>
+<div class="listing-author">
+Juma Shafara
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-categories="Software,2023" data-listing-date-sort="1673298000000" data-listing-file-modified-sort="1720467257985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="846">
+<div class="thumbnail">
+<p><a href="./posts/2023/top-5-operating-systems/index.html" class="no-external"></a></p><a href="./posts/2023/top-5-operating-systems/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2023/top-5-operating-systems/operating_systems.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2023/top-5-operating-systems/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023/top-5-operating-systems/index.html" class="no-external">To 5 Operating Systems</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023/top-5-operating-systems/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Software'); return false;">
+Software
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('2023'); return false;">
+2023
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2023/top-5-operating-systems/index.html" class="no-external">Operating systems are the backbone of modern computing, providing the fundamental software foundation for computers, smartphones, servers, and more. Here’s a comprehensive…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2023/top-5-operating-systems/index.html" class="no-external">
+<div class="listing-date">
+Jan 10, 2023
+</div>
+<div class="listing-author">
+Juma Shafara
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="Data Analysis,Machine Learning,2022" data-listing-date-sort="1656104400000" data-listing-file-modified-sort="1720467138842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1067">
+<div class="thumbnail">
+<p><a href="./posts/2022/how-the-decision-tree-classifier-works/index.html" class="no-external"></a></p><a href="./posts/2022/how-the-decision-tree-classifier-works/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022/how-the-decision-tree-classifier-works/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022/how-the-decision-tree-classifier-works/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022/how-the-decision-tree-classifier-works/index.html" class="no-external">How The Decision Tree Classifiers Works</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022/how-the-decision-tree-classifier-works/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
+Data Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('2022'); return false;">
+2022
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022/how-the-decision-tree-classifier-works/index.html" class="no-external">Decision tree classifiers are a type of supervised machine learning algorithm used for classification tasks. They are popular due to their simplicity and interpretability.…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022/how-the-decision-tree-classifier-works/index.html" class="no-external">
+<div class="listing-date">
+Jun 25, 2022
+</div>
+<div class="listing-author">
+Juma Shafara
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="Data Analysis" data-listing-date-sort="1654290000000" data-listing-file-modified-sort="1720466996510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="813">
+<div class="thumbnail">
+<p><a href="./posts/2022/what-is-demographic-data/index.html" class="no-external"></a></p><a href="./posts/2022/what-is-demographic-data/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022/what-is-demographic-data/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022/what-is-demographic-data/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022/what-is-demographic-data/index.html" class="no-external">What is Demographic Data, Understanding and Utilizing It</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022/what-is-demographic-data/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
@@ -1018,13 +1136,13 @@ Data Analysis
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/data-imputation/index.html" class="no-external">Missing data is a common hurdle in data analysis, impacting the reliability of insights drawn from datasets. Python offers a range of solutions to address this issue, some…</a>
+<a href="./posts/2022/what-is-demographic-data/index.html" class="no-external">Demographic data helps us to deepen our knowledge of the target audience and to create buyer personas. It is primarily used to strategically tailor offerings to specific…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/data-imputation/index.html" class="no-external">
+<a href="./posts/2022/what-is-demographic-data/index.html" class="no-external">
 <div class="listing-date">
-Apr 24, 2024
+Jun 4, 2022
 </div>
 <div class="listing-author">
 Juma Shafara
@@ -1032,98 +1150,35 @@ Juma Shafara
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="Fun Stuff" data-listing-date-sort="1713560400000" data-listing-file-modified-sort="1715846503701" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="488">
+<div class="quarto-post image-right" data-index="25" data-categories="Data Analysis,2022" data-listing-date-sort="1652302800000" data-listing-file-modified-sort="1720467129122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2660">
 <div class="thumbnail">
-<p><a href="./posts/programmer-puns/index.html" class="no-external"></a></p><a href="./posts/programmer-puns/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/programmer-puns/shrimply_the_best.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/programmer-puns/index.html" class="no-external"></a></p>
+<p><a href="./posts/2022/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external"></a></p><a href="./posts/2022/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/2022/handling-imbalanced-datasets/thumbnail.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/programmer-puns/index.html" class="no-external">Puns Only Programmers Will Get</a>
+<a href="./posts/2022/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external">Handling Imbalanced Datasets</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/programmer-puns/index.html" class="no-external"></a>
+<a href="./posts/2022/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Fun Stuff'); return false;">
-Fun Stuff
+<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
+Data Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('2022'); return false;">
+2022
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/programmer-puns/index.html" class="no-external">What are the best puns? Definitely the ones only a specific group of people will understand and enjoy. Especially in the era we’re living in, we need to feel like a family…</a>
+<a href="./posts/2022/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external">Handling imbalanced datasets is a common challenge in machine learning, especially in classification tasks where one class significantly outnumbers the other(s). Let’s go…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/programmer-puns/index.html" class="no-external">
+<a href="./posts/2022/handling-imbalanced-datasets/handling_imbalanced_data.html" class="no-external">
 <div class="listing-date">
-Apr 20, 2024
-</div>
-<div class="listing-author">
-Juma Shafara
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="23" data-categories="Software" data-listing-date-sort="1708376400000" data-listing-file-modified-sort="1715846485230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1059">
-<div class="thumbnail">
-<p><a href="./posts/mr-robot-softwares/index.html" class="no-external"></a></p><a href="./posts/mr-robot-softwares/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/mr-robot-softwares/mr_robot.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/mr-robot-softwares/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/mr-robot-softwares/index.html" class="no-external">All Software used in Mr.&nbsp;Robot</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/mr-robot-softwares/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Software'); return false;">
-Software
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/mr-robot-softwares/index.html" class="no-external">Here’s a list of the most popular softwares used by the hackers in the Emmy and Golden Globe award winning drama/thriller series Mr.&nbsp;Robot.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/mr-robot-softwares/index.html" class="no-external">
-<div class="listing-date">
-Feb 20, 2024
-</div>
-<div class="listing-author">
-Juma Shafara
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="24" data-categories="Software" data-listing-date-sort="1704834000000" data-listing-file-modified-sort="1715846519313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="837">
-<div class="thumbnail">
-<p><a href="./posts/top-5-operating-systems/index.html" class="no-external"></a></p><a href="./posts/top-5-operating-systems/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/top-5-operating-systems/operating_systems.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/top-5-operating-systems/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/top-5-operating-systems/index.html" class="no-external">To 5 Operating Systems</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/top-5-operating-systems/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Software'); return false;">
-Software
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/top-5-operating-systems/index.html" class="no-external">Operating systems are the backbone of modern computing, providing the fundamental software foundation for computers, smartphones, servers, and more. Here’s a comprehensive…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/top-5-operating-systems/index.html" class="no-external">
-<div class="listing-date">
-Jan 10, 2024
+May 12, 2022
 </div>
 <div class="listing-author">
 Juma Shafara
@@ -1135,6 +1190,9 @@ Juma Shafara
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
