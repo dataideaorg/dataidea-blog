@@ -688,7 +688,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
   /* fitted */
   background-color: var(--sklearn-color-fitted-level-3);
 }
-</style><div id="sk-container-id-4" class="sk-top-container overflow-x-auto"><div class="sk-text-repr-fallback"><pre>Pipeline(steps=[(&#x27;column_transformer&#x27;,
+</style><div id="sk-container-id-4" class="sk-top-container overflow-x-auto" style="width=100%"><div class="sk-text-repr-fallback"><pre>Pipeline(steps=[(&#x27;column_transformer&#x27;,
 
                  ColumnTransformer(transformers=[(&#x27;numeric&#x27;, StandardScaler(),
                                                   [&#x27;INDUS&#x27;, &#x27;NOX&#x27;, &#x27;RM&#x27;, &#x27;TAX&#x27;,
@@ -1161,7 +1161,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
   /* fitted */
   background-color: var(--sklearn-color-fitted-level-3);
 }
-</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>GridSearchCV(cv=3,
+</style><div id="sk-container-id-2" class="sk-top-container overflow-x-auto" style="width=100%"><div class="sk-text-repr-fallback"><pre>GridSearchCV(cv=3,
 
              estimator=Pipeline(steps=[(&#x27;column_transformer&#x27;,
                                         ColumnTransformer(transformers=[(&#x27;numeric&#x27;,
