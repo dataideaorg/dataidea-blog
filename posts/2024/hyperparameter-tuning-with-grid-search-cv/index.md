@@ -1,6 +1,6 @@
 ---
 title: GridSearchCV
-description: Learn Programming for Data Science
+description: GridSearchCV is a method in the scikit-learn library, which is a popular machine learning library in Python. It's used for hyperparameter optimization.
 keywords:
   [
     What is GridSearchCV,
@@ -18,6 +18,8 @@ keywords:
 date: "2024-07-11"
 categories: [2024, Machine Learning]
 ---
+
+![Photo by DATAIDEA](./thumbnail.jpg)
 
 ## What is GridSearchCV
 
