@@ -286,5 +286,8 @@
   },
   "posts/2024/understanding-knearest-neighbors-regression/index.md": {
     "index.html": "8d5fb388"
+  },
+  "posts/2024/hyperparameter-tuning-with-grid-search-cv/index.md": {
+    "index.html": "7e84a3cc"
   }
 }

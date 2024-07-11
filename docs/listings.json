@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024/hyperparameter-tuning-with-grid-search-cv/index.html",
       "/posts/2024/understanding-knearest-neighbors-regression/index.html",
       "/posts/2024/classification-metrics/index.html",
       "/posts/2024/anova-for-feature-selection/index.html",
