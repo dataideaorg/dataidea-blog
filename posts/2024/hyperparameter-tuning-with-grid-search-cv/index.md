@@ -1441,8 +1441,9 @@ If you reached here, you have learned the following:
 - Using the GridSearchCV to find the best Hyperparameters for our Machine Learning model.
 
 ## What do you think? Put it in the comments below!
+
 <script src="https://utteranc.es/client.js"
-        repo="https://github.com/dataidea/dataidea-blog"
+        repo="dataideaorg/dataidea-blog"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"

@@ -110,6 +110,16 @@ KNN regression is a straightforward and intuitive algorithm for making predictio
 
 By understanding and visualizing the KNN regression process, you can better appreciate its applications and limitations, allowing you to apply it effectively in your machine learning projects.
 
+## What do you think? Put it in the comments below!
+
+<script src="https://utteranc.es/client.js"
+        repo="dataideaorg/dataidea-blog"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 <!--Ad-->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
      crossorigin="anonymous"></script>

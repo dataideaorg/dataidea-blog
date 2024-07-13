@@ -633,6 +633,16 @@ The results show how well the model performs in classifying the iris species, wi
 ## Exercise:
 Perform the steps above using the wine dataset from sklearn
 
+## What do you think? Put it in the comments below!
+
+<script src="https://utteranc.es/client.js"
+        repo="dataideaorg/dataidea-blog"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 
 <!-- Newsletter -->
 <div style="background-color: #3a6e68; border:1px solid #3a6e68; color: #fff; font-weight: 700; padding-left: 10px; padding-top: 5px; padding-bottom: 5px"><strong>Don't Miss Any Updates!</strong></div>

@@ -101,13 +101,22 @@ Assume we have a feature vector $\mathbf{x} = [\text{Size, Bedrooms}]$ and we wa
 3. Use the training data to find the best $\mathbf{w}$ and $b$ that minimize the BCE.
 4. Predict whether a new email "Congratulations, you've won!" is spam.
 
-
 <p class=pb-1>
 To be among the first to hear about future updates, simply enter your email below, follow us on <a href="https://x.com/dataideaorg"><i class="bi bi-twitter-x"></i>
  (formally Twitter)</a>, or subscribe to our <a href="https://www.youtube.com/@dataideaorg"><i class="bi bi-youtube"></i> YouTube channel</a>.
 </p>
 <iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; width: 100%;" ></iframe>
 
+
+## What do you think? Put it in the comments below!
+
+<script src="https://utteranc.es/client.js"
+        repo="dataideaorg/dataidea-blog"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 <div class="p-3">
 <h2>You may also like:</h2>
