@@ -8,6 +8,8 @@
 
 <meta name="author" content="Juma Shafara">
 <meta name="dcterms.date" content="2023-04-25">
+<meta name="keywords" content="What is a Python Virtual Environment?, Setting Up a Virtual Environment">
+<meta name="description" content="We’ll walk through the process of creating a virtual environment using venv and installing a package">
 
 <title>DATAIDEA - Python Virtual Environments</title>
 <style>
@@ -212,7 +214,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Python Virtual Environments</h1>
-                                <div class="quarto-categories">
+                  <div>
+        <div class="description">
+          We’ll walk through the process of creating a virtual environment using venv and installing a package
+        </div>
+      </div>
+                          <div class="quarto-categories">
                 <div class="quarto-category">Data Analysis</div>
                 <div class="quarto-category">Software</div>
                 <div class="quarto-category">Other</div>
@@ -240,6 +247,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       
     </div>
     
+
+  <div>
+    <div class="keywords">
+      <div class="block-title">Keywords</div>
+      <p>What is a Python Virtual Environment?, Setting Up a Virtual Environment</p>
+    </div>
+  </div>
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
@@ -273,12 +287,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </figure>
 </div>
 <p>In the vast ecosystem of Python programming, managing dependencies can sometimes be a daunting task. As projects grow in complexity, so does the need for a clean and isolated environment where dependencies can be installed without affecting other projects or the system-wide Python installation. This is where Python virtual environments come into play. In this guide, we’ll walk through the process of creating a virtual environment using venv and installing a package, like DataIdea, within it.</p>
-<section id="what-is-a-python-virtual-environment" class="level3">
-<h3 class="anchored" data-anchor-id="what-is-a-python-virtual-environment">What is a Python Virtual Environment?</h3>
+<section id="what-is-a-python-virtual-environment" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-python-virtual-environment">What is a Python Virtual Environment?</h2>
 <p>A virtual environment is a self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages. It allows you to work on a Python project in isolation, ensuring that your project’s dependencies are maintained separately from other projects or the system Python.</p>
 </section>
-<section id="step-1-setting-up-a-virtual-environment" class="level3">
-<h3 class="anchored" data-anchor-id="step-1-setting-up-a-virtual-environment">Step 1: Setting Up a Virtual Environment</h3>
+<section id="step-1-setting-up-a-virtual-environment" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-setting-up-a-virtual-environment">Step 1: Setting Up a Virtual Environment</h2>
 <p>Python 3 comes with a built-in module called <code>venv</code>, which is used to create virtual environments. To create a virtual environment, open your terminal or command prompt and navigate to the directory where you want to create the environment. Then, run the following command:</p>
 <ul>
 <li><strong>On macOS and Linux:</strong></li>
@@ -289,16 +303,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv myenv</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Replace <code>myenv</code> with the name you want to give to your virtual environment. This command will create a directory named <code>myenv</code> (or whatever name you provided) containing a Python interpreter and other necessary files.</p>
-<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238" crossorigin="anonymous"></script>
-<!-- inline-square -->
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8076040302380238" data-ad-slot="3564352555" data-ad-format="auto" data-full-width-responsive="true">
-</ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<!-- Newsletter -->
+<div style="background-color: #3a6e68; border:1px solid #3a6e68; color: #fff; font-weight: 700; padding-left: 10px; padding-top: 5px; padding-bottom: 5px">
+<strong>Don’t Miss Any Updates!</strong>
+</div>
+<div style="background-color: #f3f4f7; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; padding-right: 10px">
+<p class="pb-1">
+Before we continue, we have a humble request, to be among the first to hear about future updates of the course materials, simply enter your email below, follow us on <a href="https://x.com/dataideaorg"><i class="bi bi-twitter-x"></i> (formally Twitter)</a>, or subscribe to our <a href="https://www.youtube.com/@dataideaorg"><i class="bi bi-youtube"></i> YouTube channel</a>.
+</p>
+<iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; width: 100%;">
+</iframe>
+</div>
 </section>
-<section id="step-2-activating-the-virtual-environment" class="level3">
-<h3 class="anchored" data-anchor-id="step-2-activating-the-virtual-environment">Step 2: Activating the Virtual Environment</h3>
+<section id="step-2-activating-the-virtual-environment" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-activating-the-virtual-environment">Step 2: Activating the Virtual Environment</h2>
 <p>Once the virtual environment is created, you need to activate it. Activation sets up the environment variables and modifies your shell prompt to indicate that you are now working within the virtual environment. Activate the virtual environment by running the appropriate command for your operating system:</p>
 <ul>
 <li><strong>On macOS and Linux:</strong></li>
@@ -309,50 +327,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">myenv\Scripts\activate</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>You’ll notice that your command prompt changes to show the name of the activated virtual environment.</p>
-<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238" crossorigin="anonymous"></script>
-<!-- inline-square -->
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8076040302380238" data-ad-slot="3564352555" data-ad-format="auto" data-full-width-responsive="true">
-</ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </section>
-<section id="step-3-installing-packages" class="level3">
-<h3 class="anchored" data-anchor-id="step-3-installing-packages">Step 3: Installing Packages</h3>
+<section id="step-3-installing-packages" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-installing-packages">Step 3: Installing Packages</h2>
 <p>With the virtual environment activated, you can now install packages without affecting the global Python installation. Let’s install <code>dataidea</code>, as an example:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install dataidea</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>you can replace <code>dataidea</code> with another name of the package you want to install.</p>
 </section>
-<section id="step-4-using-dataidea-in-your-project" class="level3">
-<h3 class="anchored" data-anchor-id="step-4-using-dataidea-in-your-project">Step 4: Using <code>dataidea</code> in Your Project</h3>
+<section id="step-4-using-dataidea-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-using-dataidea-in-your-project">Step 4: Using <code>dataidea</code> in Your Project</h2>
 <p>Once the package is installed, you can start using it in your Python project. Simply import it in your Python scripts as you would with any other package:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> dataidea</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238" crossorigin="anonymous"></script>
-<!-- inline-square -->
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8076040302380238" data-ad-slot="3564352555" data-ad-format="auto" data-full-width-responsive="true">
-</ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </section>
-<section id="step-5-deactivating-the-virtual-environment" class="level3">
-<h3 class="anchored" data-anchor-id="step-5-deactivating-the-virtual-environment">Step 5: Deactivating the Virtual Environment</h3>
+<section id="step-5-deactivating-the-virtual-environment" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-deactivating-the-virtual-environment">Step 5: Deactivating the Virtual Environment</h2>
 <p>When you’re done working on your project and want to leave the virtual environment, you can deactivate it by simply typing:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">deactivate</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="conclusion" class="level3">
-<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
-<p>Python virtual environments are indispensable tools for managing dependencies and keeping project environments clean and isolated. With the <code>venv</code> module, creating and managing virtual environments has become easier than ever. By following the steps outlined in this guide, you can create a virtual environment, install packages like DataIdea, and develop Python projects with confidence. Happy coding!</p>
-<p>A few ads maybe displayed for income as resources are now offered freely. 🤝🤝🤝</p>
-<!-- Insert AdSense script dynamically -->
-<script>
-    (function() {
-        var adScript = document.createElement('script');
-        adScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238';
-        adScript.async = true;
-        adScript.crossorigin="anonymous"
-        document.head.appendChild(adScript);
-    })();
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Python virtual environments are indispensable tools for managing dependencies and keeping project environments clean and isolated. With the <code>venv</code> module, creating and managing virtual environments has become easier than ever. By following the steps outlined in this guide, you can create a virtual environment, install packages like DATAIDEA, and develop Python projects with confidence. Happy coding!</p>
+<h2 class="anchored">
+What’s on your mind? Put it in the comments!
+</h2>
+<script src="https://utteranc.es/client.js" repo="dataideaorg/dataidea-blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
 
 
