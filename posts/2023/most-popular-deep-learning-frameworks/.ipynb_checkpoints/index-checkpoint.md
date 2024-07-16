@@ -1,13 +1,13 @@
 ---
 title: Exploring the Most Popular Deep Learning Frameworks
 author: "Juma Shafara"
-date: "2023-07-16"
+date: "2024-07-16"
 categories: [Data Analysis, Software, Other]
 keywords: [ machine learning, deep learning frameworks, TensorFlow, pytorch, keras, MXNet, Caffe]
 description: We will explore some of the most popular deep learning frameworks that have shaped the AI landscape.
 ---
 
-![Photo by DATAIDEA](thumbnail.png)
+![Photo by DATAIDEA](thumbnail.jpg)
 
 
 Deep learning, a subset of machine learning, has revolutionized various industries by enabling computers to mimic human intelligence. In this blog, we will explore some of the most popular deep learning frameworks that have shaped the AI landscape.
