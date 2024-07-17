@@ -4,6 +4,7 @@ description: There are different types of control flow tools available to us in 
 keywords: [function, conditional statements, if, if else, if elif, lambda functions, loops, for loop, while loop]
 author: Juma Shafara
 categories: [Tutorial, Python]
+date: "2023-07-17"
 ---
 
 ![Photo by DATAIDEA](thumbnail.jpg)
