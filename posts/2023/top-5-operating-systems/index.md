@@ -116,7 +116,6 @@ Exclusive to Apple's mobile devices, iOS and iPadOS are renowned for their smoot
 
 In conclusion, these operating systems showcase diversity in terms of architecture, platform support, and features, catering to the varied needs of users across different devices and industries.
 
-
 <!-- Newsletter -->
 <div style="background-color: #3a6e68; border:1px solid #3a6e68; color: #fff; font-weight: 700; padding-left: 10px; padding-top: 5px; padding-bottom: 5px"><strong>Don't Miss Any Updates!</strong></div>
 <div style="background-color: #f3f4f7; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; padding-right: 10px">

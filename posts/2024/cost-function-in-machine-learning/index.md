@@ -9,19 +9,20 @@ categories: [Machine Learning, Data Analysis]
 
 Linear regression is a fundamental algorithm in machine learning and statistics, used to model the relationship between a dependent variable and one or more independent variables. At the heart of linear regression lies the concept of the cost function, a crucial element that helps the model learn and make accurate predictions. In this article, I'll get into what a cost function is, why it's important, and how it works in the context of linear regression.
 
-
 ### What is a Cost Function?
 
 A cost function, also known as a loss function or error function, quantifies the error between predicted values and actual values. It is a mathematical function that the model aims to minimize during the training process. By minimizing the cost function, the model adjusts its parameters (weights and biases) to produce the most accurate predictions possible.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
      crossorigin="anonymous"></script>
+
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
      data-ad-layout="in-article"
      data-ad-format="fluid"
      data-ad-client="ca-pub-8076040302380238"
      data-ad-slot="8693891310"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -62,12 +63,14 @@ Minimizing the cost function is essential because it directly translates to impr
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
      crossorigin="anonymous"></script>
+
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
      data-ad-layout="in-article"
      data-ad-format="fluid"
      data-ad-client="ca-pub-8076040302380238"
      data-ad-slot="8693891310"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>

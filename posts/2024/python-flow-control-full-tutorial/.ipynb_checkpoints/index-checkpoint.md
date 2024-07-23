@@ -1,10 +1,21 @@
 ---
 title: Flow Control
 description: There are different types of control flow tools available to us in Python and we will go through them in detail in this lesson.
-keywords: [function, conditional statements, if, if else, if elif, lambda functions, loops, for loop, while loop]
+keywords:
+  [
+    function,
+    conditional statements,
+    if,
+    if else,
+    if elif,
+    lambda functions,
+    loops,
+    for loop,
+    while loop,
+  ]
 author: Juma Shafara
 categories: [Tutorial, Python]
-date: "2023-07-17"
+date: "2024-07-17"
 ---
 
 ![Photo by DATAIDEA](thumbnail.jpg)
@@ -14,6 +25,7 @@ Python control flow tools change the flow of how code is executed by the Python 
 Since the Python interpreter executes code in a line-by-line manner, Python control flow tools help dictate what line(s) of code should run in a Python program. There are different types of control flow tools available to us in Python and we will go through them in detail in this lesson.
 
 ## Functions
+
 A function in python is a group statements that perform a particular task
 
 ```python
@@ -26,18 +38,12 @@ def calculateBodyMassIndex(weight_kg, height_m):
     return rounded_bmi
 ```
 
-
 ```python
 # lets try
 calculateBodyMassIndex(67, 1.6)
 ```
 
-
-
-
     26.17
-
-
 
 ### Creating a function
 
@@ -48,7 +54,6 @@ To create a function, we need the following:
 - Round brackets `()` and a colon `:`
 - A function body- a group of statements
 
-
 ```python
 def greeter():
     message = 'Hello'
@@ -58,20 +63,17 @@ def greeter():
 - To execute a function, it needs to be called
 - To call a function, use its function name with parentheses `()`
 
-
 ```python
 greeter()
 ```
 
     Hello
 
-
 ### Function Parameters/Arguments
 
 - When calling a function, we can pass data using parameters/arguments
-- A *parameter* is a variable declared in the function. In the example below, `number1` and `number2` are parameter
-- The *argument* is the value passed to the function when its called. In the example below `3` and `27` are the arguments
-
+- A _parameter_ is a variable declared in the function. In the example below, `number1` and `number2` are parameter
+- The _argument_ is the value passed to the function when its called. In the example below `3` and `27` are the arguments
 
 ```python
 # define the function
@@ -84,8 +86,6 @@ addNumbers(3, 27)
 ```
 
     30
-
-
 
 ```python
 # setting a default argument
@@ -100,14 +100,13 @@ greet()
     Hello Tinye
     Hello you
 
-
 ## Default Arguments:
+
 A function can have default arguments.
 
 It can be done using the assignment operator (`=`).
 
 If you don't pass the argument, the default argument will be used instead.
-
 
 ```python
 def hello(name = 'Agaba'):
@@ -120,10 +119,9 @@ hello() # calling with no name
     Hello John
     Hello Agaba
 
+### Return Statement
 
-###  Return Statement
 The `return` statement is used to return a value to a function caller
-
 
 ```python
 def addNumbers(number1, number2):
@@ -136,20 +134,19 @@ print(summation)
 
     60
 
-
 <div class="alert text-white rounded" style="background: #3a6e68;"><h4>Important!</h4><p>The return statement stops the execution of a function.</p></div>
 
 ### lambda functions
- 
+
 - Lambda functions (also called anonymous functions) are functions that donot have names
 - The body of a lambda function can only have one expression, but can have multiple arguments
 - The result of the expression is automatically returned
 
   **Syntax:**
+
   ```python
   lambda parameters: expression
   ```
-
 
 ```python
 # Example of lambda function
@@ -159,19 +156,13 @@ calculateBMI = lambda weight_kg, height_m: round((weight_kg/(height_m ** 2)), 2)
 calculateBMI(67, 1.7)
 ```
 
-
-
-
     23.18
-
-
 
 <div class="alert text-white rounded" style="background: #3a6e68;"><h4>Note!</h4><p>In the example above, the body mass index is automatically return, even without using the return statement</p></div>
 
 ### Practice functions
 
 #### Calculate CGPA
-
 
 ```python
 # Assume 4 course units
@@ -199,14 +190,13 @@ def calculate_CGPA(GPs_list, CUs_list):
 
 #### Get someones age given birth month and year
 
-
 ```python
 def getAge(month, year):
     month_diff = 12 - month
     year_diff = 2023 - year
 
-    return str(year_diff) + ' years ' + str(month_diff) + ' months'  
-    
+    return str(year_diff) + ' years ' + str(month_diff) + ' months'
+
 age = getAge(year=2000, month=10) # keyword argument
 age2 = getAge(10, 2000) # positional argument
 
@@ -214,7 +204,6 @@ print(age)
 ```
 
     23 years 2 months
-
 
 <!-- Newsletter -->
 <div style="background-color: #3a6e68; border:1px solid #3a6e68; color: #fff; font-weight: 700; padding-left: 10px; padding-top: 5px; padding-bottom: 5px"><strong>Don't Miss Any Updates!</strong></div>
@@ -228,37 +217,40 @@ Before we continue, we have a humble request, to be among the first to hear abou
 <iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; width: 100%;" ></iframe>
 </div>
 
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
      crossorigin="anonymous"></script>
 <!-- inline_horizontal -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8076040302380238"
      data-ad-slot="9021194372"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## Loops 
+## Loops
 
 - Loops are used to repetitively execute a group of statements
 - we have 2 types, `for` and `while` loop
 
 #### For Loop
+
 A `for` loop is used to loop through or iterate over a sequence or iterable objects
 
 **Syntax:**
+
 ```python
 for variable in sequence:
     statements
 ```
 
 ### Looping through a list
-The for loop is commonly used with lists.
 
+The for loop is commonly used with lists.
 
 ```python
 pets = ['cat', 'dog', 'rabbit']
@@ -271,9 +263,7 @@ for pet in pets:
     dog
     rabbit
 
-
 Here's another example to convert many weights from kilograms(kgs) to pounds(pds)
-
 
 ```python
 # convert all weights in list from kg to pounds
@@ -289,7 +279,6 @@ print(weights_pds)
 ```
 
 This example displays all letters in my name.
-
 
 ```python
 # Display all letters in a name
@@ -307,16 +296,16 @@ for letter in name:
     r
     a
 
-
 ### While loop
+
 - The `while` loop executes a given group of statements as long as the given expression is `True`
 
 **Syntax:**
+
 ```python
 while expression:
     statements
 ```
-
 
 ```python
 counter = 0
@@ -331,8 +320,6 @@ while counter < 5:
     Hello you
     Hello you
     Hello you
-
-
 
 ```python
 # Convert the weights in the list from kgs to pounds
@@ -355,7 +342,6 @@ print(weights_pds)
 
     [319.0, 220.0, 167.2, 176.0]
 
-
 ## Conditional Statements
 
 Conditional statements in Python are fundamental building blocks for controlling the flow of a program based on certain conditions. They enable the execution of specific blocks of code when certain conditions are met. The primary conditional statements in Python include `if`, `elif`, and `else`.
@@ -363,6 +349,7 @@ Conditional statements in Python are fundamental building blocks for controlling
 ### Basic Syntax
 
 #### If Statement
+
 The `if` statement is used to test a condition. If the condition evaluates to `True`, the block of code inside the `if` statement is executed.
 
 ```python
@@ -371,6 +358,7 @@ if condition:
 ```
 
 Example:
+
 ```python
 x = 10
 if x > 5:
@@ -378,6 +366,7 @@ if x > 5:
 ```
 
 #### Else Statement
+
 The `else` statement is used to execute a block of code if the condition in the `if` statement evaluates to `False`.
 
 ```python
@@ -388,6 +377,7 @@ else:
 ```
 
 Example:
+
 ```python
 x = 3
 if x > 5:
@@ -397,6 +387,7 @@ else:
 ```
 
 #### Elif Statement
+
 The `elif` (short for else if) statement allows you to check multiple conditions. If the first condition is `False`, it checks the next `elif` condition, and so on. If all conditions are `False`, the `else` block is executed.
 
 ```python
@@ -409,6 +400,7 @@ else:
 ```
 
 Example:
+
 ```python
 x = 7
 if x > 10:
@@ -420,9 +412,11 @@ else:
 ```
 
 ### Nested Conditional Statements
+
 Conditional statements can be nested within each other to handle more complex decision-making processes.
 
 Example:
+
 ```python
 x = 15
 if x > 10:
@@ -435,6 +429,7 @@ else:
 ```
 
 ### Conditional Expressions (Ternary Operator)
+
 Python also supports conditional expressions, which allow for a more concise way to write simple `if-else` statements.
 
 ```python
@@ -442,6 +437,7 @@ variable = value_if_true if condition else value_if_false
 ```
 
 Example:
+
 ```python
 x = 10
 result = "greater than 5" if x > 5 else "5 or less"
@@ -449,9 +445,11 @@ print(result)  # Output: greater than 5
 ```
 
 ### Combining Conditions
+
 Multiple conditions can be combined using logical operators (`and`, `or`, `not`).
 
 Example:
+
 ```python
 x = 8
 if x > 5 and x < 10:
@@ -459,6 +457,7 @@ if x > 5 and x < 10:
 ```
 
 ### Practical Usage
+
 Conditional statements are used in a wide variety of scenarios, such as:
 
 - Validating user input.

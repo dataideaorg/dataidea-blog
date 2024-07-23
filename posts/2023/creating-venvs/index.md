@@ -3,7 +3,8 @@ title: Python Virtual Environments
 author: "Juma Shafara"
 date: "2023-04-25"
 categories: [Data Analysis, Software, Other]
-keywords: [What is a Python Virtual Environment?, Setting Up a Virtual Environment]
+keywords:
+  [What is a Python Virtual Environment?, Setting Up a Virtual Environment]
 description: We'll walk through the process of creating a virtual environment using venv and installing a package
 ---
 
@@ -101,5 +102,3 @@ Python virtual environments are indispensable tools for managing dependencies an
         crossorigin="anonymous"
         async>
 </script>
-
-

@@ -1,7 +1,20 @@
 ---
 title: Classification Metrics Practice
-keywords: [machine learning, machine learning classification, machine learning classification metrics, decision trees, python, precision, recall, f1 score, weighted, accuracy, linear regression]
-description: Learn Programming for Data Science. Demonstrate loading, preparing, training, and evaluating a machine learning model using the Iris dataset  
+keywords:
+  [
+    machine learning,
+    machine learning classification,
+    machine learning classification metrics,
+    decision trees,
+    python,
+    precision,
+    recall,
+    f1 score,
+    weighted,
+    accuracy,
+    linear regression,
+  ]
+description: Learn Programming for Data Science. Demonstrate loading, preparing, training, and evaluating a machine learning model using the Iris dataset
 author: "Juma Shafara"
 date: "2024-07-04"
 categories: [Data Analysis, Machine Learning]
@@ -10,7 +23,6 @@ categories: [Data Analysis, Machine Learning]
 ![Photo by DATAIDEA](thumbnail.jpg)
 
 In this notebook, we'll walk through the process of building and evaluating a decision tree classifier using Scikit-Learn. We'll use the Iris dataset for demonstration and then provide an exercise to apply the same steps to the Wine dataset.
-
 
 <!-- Newsletter -->
 <div style="background-color: #3a6e68; border:1px solid #3a6e68; color: #fff; font-weight: 700; padding-left: 10px; padding-top: 5px; padding-bottom: 5px"><strong>Don't Miss Any Updates!</strong></div>
@@ -24,11 +36,9 @@ To be among the first to hear about future updates of the course materials, simp
 <iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; width: 100%;" ></iframe>
 </div>
 
-
 ## Importing Necessary Libraries
 
 First, we import the necessary libraries for data manipulation and loading the dataset.
-
 
 ```py
 import numpy as np
@@ -41,7 +51,6 @@ from sklearn.datasets import load_iris
 
 ## Loading the Iris Dataset
 
-
 ```py
 iris = load_iris()
 ```
@@ -52,14 +61,12 @@ The Iris dataset is loaded and stored in the variable iris.
 
 For a better understanding of the dataset, we can uncomment the following line to print the description of the Iris dataset.
 
-
 ```py
 ## uncomment and run to read the data description
 # print(iris['DESCR'])
 ```
 
 ## Extracting Features and Target Variables
-
 
 ```py
 X = iris['data']
@@ -71,7 +78,6 @@ y = iris['target']
 
 ## Importing Train-Test Split Function
 
-
 ```py
 from sklearn.model_selection import train_test_split
 ```
@@ -79,7 +85,6 @@ from sklearn.model_selection import train_test_split
 `train_test_split` is imported to split the data into training and testing sets.
 
 ## Splitting the Data
-
 
 ```py
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
@@ -91,7 +96,6 @@ The dataset is split into training (70%) and testing (30%) sets.
 
 Next, we import the Decision Tree classifier from Scikit-Learn.
 
-
 ```py
 from sklearn.tree import DecisionTreeClassifier
 ```
@@ -99,7 +103,6 @@ from sklearn.tree import DecisionTreeClassifier
 ## Initializing the Classifier
 
 We create an instance of the Decision Tree classifier
-
 
 ```py
 classifier = DecisionTreeClassifier()
@@ -109,13 +112,9 @@ classifier = DecisionTreeClassifier()
 
 We train the classifier using the training data.
 
-
 ```py
 classifier.fit(X_train, y_train)
 ```
-
-
-
 
 <style>#sk-container-id-1 {
   /* Definition of color scheme common for light and dark mode */
@@ -523,19 +522,17 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 }
 </style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>DecisionTreeClassifier()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label fitted sk-toggleable__label-arrow fitted">&nbsp;&nbsp;DecisionTreeClassifier<a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.4/modules/generated/sklearn.tree.DecisionTreeClassifier.html">?<span>Documentation for DecisionTreeClassifier</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></label><div class="sk-toggleable__content fitted"><pre>DecisionTreeClassifier()</pre></div> </div></div></div></div>
 
-
-
 ## Making Predictions
-We then make predictions on the test data using the the `predict()` method on the model
 
+We then make predictions on the test data using the the `predict()` method on the model
 
 ```py
 preds = classifier.predict(X_test)
 ```
 
 ## Importing Metrics for Evaluation
-To evaluate our model, we import various metrics from Scikit-Learn.
 
+To evaluate our model, we import various metrics from Scikit-Learn.
 
 ```py
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
@@ -545,71 +542,49 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 Accuracy refers to the proportion of correctly predicted instances out of the total instances.
 
-
 ```py
 accuracy_score(y_test, preds)
 ```
 
-
-
-
     0.9777777777777777
 
-
-
 ## Calculating Precision
-Precision is the ratio of correctly predicted positive observations to the total predicted positives.
 
+Precision is the ratio of correctly predicted positive observations to the total predicted positives.
 
 ```py
 precision_score(y_test, preds, average='weighted')
 ```
 
-
-
-
     0.9791666666666666
 
-
-
 ## Calculating Recall
-Recall is the ratio of correctly predicted positive observations to all the actual positives.
 
+Recall is the ratio of correctly predicted positive observations to all the actual positives.
 
 ```py
 recall_score(y_test, preds, average='weighted')
 ```
 
-
-
-
     0.9777777777777777
 
-
-
 ## Calculating F1 Score
-The f1 score refers to the Harmonic mean of Precision and Recall.
 
+The f1 score refers to the Harmonic mean of Precision and Recall.
 
 ```py
 f1_score(y_test, preds, average='weighted')
 ```
 
-
-
-
     0.9777530589543938
 
-
-
 ## Displaying the Classification Report
-We can print the classification report, which provides precision, recall, F1-score, and support for each class.
 
+We can print the classification report, which provides precision, recall, F1-score, and support for each class.
 
 ```py
 from sklearn.metrics import classification_report
 ```
-
 
 ```py
 classification_report = classification_report(y_test, preds)
@@ -617,20 +592,19 @@ print(classification_report)
 ```
 
                   precision    recall  f1-score   support
-    
+
                0       1.00      1.00      1.00        15
                1       1.00      0.93      0.97        15
                2       0.94      1.00      0.97        15
-    
+
         accuracy                           0.98        45
        macro avg       0.98      0.98      0.98        45
     weighted avg       0.98      0.98      0.98        45
-    
-
 
 The results show how well the model performs in classifying the iris species, with metrics providing insights into different aspects of the model's performance.
 
 ## Exercise:
+
 Perform the steps above using the wine dataset from sklearn
 
 ## What do you think? Put it in the comments below!
@@ -643,7 +617,6 @@ Perform the steps above using the wine dataset from sklearn
         async>
 </script>
 
-
 <!-- Newsletter -->
 <div style="background-color: #3a6e68; border:1px solid #3a6e68; color: #fff; font-weight: 700; padding-left: 10px; padding-top: 5px; padding-bottom: 5px"><strong>Don't Miss Any Updates!</strong></div>
 <div style="background-color: #f3f4f7; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; padding-right: 10px">
@@ -655,7 +628,6 @@ To be among the first to hear about future updates of the course materials, simp
 
 <iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; width: 100%;" ></iframe>
 </div>
-
 
 <div class="p-3">
 <h2>You may also like:</h2>

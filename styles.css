@@ -26,20 +26,6 @@
   background-color: #3a6e68;
 }
 
-.navbar a,
-.navbar svg,
-.navbar .bi {
-  color: white !important;
-}
-
-.navbar-toggler-icon {
-  color: white !important;
-}
-
-.navbar .dropdown-item {
-  color: #343a40 !important;
-}
-
 p,
 a,
 li {
@@ -100,4 +86,39 @@ div.description {
 .keywords,
 .description {
   display: none;
+}
+
+.quarto-title-banner {
+  background: #498982;
+  color: white;
+}
+
+/* Newsletter */
+.newsletter-heading {
+  background-color: #3a6e68;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.newsletter-body {
+  background-color: #f3f4f7;
+  color: #343a40;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.newsletter-frame {
+  margin: 0;
+  border-radius: 0px !important;
+  background-color: transparent;
+  width: 100%;
+}
+
+/* Alert */
+.alert {
+  background: #3a6e68;
+  color: #fff;
+  border-radius: 0.25em;
 }

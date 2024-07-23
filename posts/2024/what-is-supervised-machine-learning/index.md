@@ -3,11 +3,20 @@ title: What is Supervised Machine Learning
 author: "Juma Shafara"
 date: "2024-06-25"
 categories: [Data Analysis, Machine Learning]
-keywords: [machine learning, supervised machine learning, regression, classification, linear regression model, data, data science, artificial intelligence] 
+keywords:
+  [
+    machine learning,
+    supervised machine learning,
+    regression,
+    classification,
+    linear regression model,
+    data,
+    data science,
+    artificial intelligence,
+  ]
 ---
 
 ![Photo by DATAIDEA](thumbnail.png)
-
 
 ## Understanding Supervised Machine Learning
 
@@ -38,6 +47,7 @@ The model is defined as:
 $$y = \mathbf{w}^T \mathbf{x} + b$$
 
 where:
+
 - $y$ is the predicted output.
 - $\mathbf{x}$ is the feature vector.
 - $\mathbf{w}$ is the weight vector.
@@ -47,6 +57,7 @@ The training process involves minimizing the loss function, typically the Mean S
 $$\text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y_i})^2$$
 
 where:
+
 - $n$ is the number of training examples.
 - $y_i$ is the actual output for the $i$-th example.
 - $\hat{y_i}$ is the predicted output for the $i$-th example.
@@ -69,7 +80,7 @@ $$\text{BCE} = - \frac{1}{n} \sum_{i=1}^n \left[ y_i \log(\hat{y_i}) + (1 - y_i)
 #### Training Data
 
 | Size (sq ft) | Bedrooms | Price ($) |
-|--------------|----------|-----------|
+| ------------ | -------- | --------- |
 | 1500         | 3        | 300,000   |
 | 1800         | 4        | 350,000   |
 | 2000         | 4        | 400,000   |
@@ -87,12 +98,12 @@ Assume we have a feature vector $\mathbf{x} = [\text{Size, Bedrooms}]$ and we wa
 
 #### Training Data
 
-| Email Content                           | Spam (1) / Not Spam (0) |
-|-----------------------------------------|-------------------------|
-| "Win a free vacation now!"              | 1                       |
-| "Meeting at 10 AM tomorrow"             | 0                       |
-| "Limited time offer, click now!"        | 1                       |
-| "Your report is due by Friday"          | 0                       |
+| Email Content                    | Spam (1) / Not Spam (0) |
+| -------------------------------- | ----------------------- |
+| "Win a free vacation now!"       | 1                       |
+| "Meeting at 10 AM tomorrow"      | 0                       |
+| "Limited time offer, click now!" | 1                       |
+| "Your report is due by Friday"   | 0                       |
 
 #### Logistic Regression Model
 
@@ -106,7 +117,6 @@ To be among the first to hear about future updates, simply enter your email belo
  (formally Twitter)</a>, or subscribe to our <a href="https://www.youtube.com/@dataideaorg"><i class="bi bi-youtube"></i> YouTube channel</a>.
 </p>
 <iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; width: 100%;" ></iframe>
-
 
 ## What do you think? Put it in the comments below!
 
@@ -129,12 +139,14 @@ To be among the first to hear about future updates, simply enter your email belo
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
      crossorigin="anonymous"></script>
 <!-- inline_horizontal -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8076040302380238"
      data-ad-slot="9021194372"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
