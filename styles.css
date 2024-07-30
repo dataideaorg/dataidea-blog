@@ -22,6 +22,11 @@
   src: url("./fonts/DM_Mono/DMMono-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "dm sans";
+  src: url("./fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
 .navbar {
   background-color: #3a6e68;
 }
@@ -29,7 +34,7 @@
 p,
 a,
 li {
-  font-family: "futura";
+  font-family: "dm sans";
 }
 
 h1,
