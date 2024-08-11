@@ -4,9 +4,6 @@ author: Juma Shafara
 date: "2024-08-03"
 description: Here are some tips to help you stay motivated and enthusiastic about your work.
 keywords: []
-html:
-  head-content: |
-    <link rel="canonical" href="https://jumashafara.dataidea.org/posts/2024/staying-motivated-as-a-programmer/" />
 ---
 
 ![Set Clear Goals](./thumbnail.jpg)
@@ -122,7 +119,7 @@ At DATAIDEA, we believe in the power of community and continuous learning. By im
 
 <h2>What's on your mind? Put it in the comments!</h2>
 <script src="https://utteranc.es/client.js"
-        repo="dataideaorg/dataidea-science"
+        repo="dataideaorg/dataidea-blog"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
