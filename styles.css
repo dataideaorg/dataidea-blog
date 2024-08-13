@@ -7,11 +7,6 @@
 }
 
 @font-face {
-  font-family: "futura";
-  src: url("./fonts/futura/Futura Book font.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "fira";
   src: url("./fonts/fira/FiraCodeiScript-master/FiraCodeiScript-Regular.ttf")
     format("truetype");
