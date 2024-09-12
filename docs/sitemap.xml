@@ -1,176 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.dataidea.org/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.572Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2023/programmer-puns/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.581Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/time_series_intro/index.html</loc>
-    <lastmod>2024-05-18T05:12:01.313Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2023/mr-robot-softwares/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.580Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/bffill_and_ffill/index.html</loc>
-    <lastmod>2024-05-24T03:55:41.375Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/openai_suspends_her/index.html</loc>
-    <lastmod>2024-05-22T07:05:40.728Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/sklearn_unsupervised_learning/index.html</loc>
-    <lastmod>2024-05-22T08:09:17.066Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/ml_model_deployment/index.html</loc>
-    <lastmod>2024-05-16T08:01:07.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/budget_ml_deploy_options/index.html</loc>
-    <lastmod>2024-05-18T05:00:37.855Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/creating_venvs/index.html</loc>
-    <lastmod>2024-05-17T13:20:46.856Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/data_imputation/index.html</loc>
-    <lastmod>2024-06-04T14:35:57.582Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/mr_robot_softwares/index.html</loc>
-    <lastmod>2024-05-16T08:01:25.230Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/rethinking_chatgpt/index.html</loc>
-    <lastmod>2024-06-04T15:36:25.549Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/fpl_standings/index.html</loc>
-    <lastmod>2024-05-16T08:00:21.891Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/programmer_puns/index.html</loc>
-    <lastmod>2024-05-16T08:01:43.701Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/top_5_operating_systems/index.html</loc>
-    <lastmod>2024-05-16T08:01:59.313Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/time_series_analysis/index.html</loc>
-    <lastmod>2024-05-18T05:20:23.785Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/time_series_forecasting/index.html</loc>
-    <lastmod>2024-05-18T05:14:01.572Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/handling_imbalanced_datasets/handling_imbalanced_data.html</loc>
-    <lastmod>2024-05-16T08:00:59.122Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/what-is-demographic-data/index.html</loc>
-    <lastmod>2024-06-04T20:05:51.826Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/overview-of-machine-learning/index.html</loc>
-    <lastmod>2024-06-05T19:54:37.600Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/who-will-win-the-euros-2024/index.html</loc>
-    <lastmod>2024-06-11T10:19:26.493Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/cost-function-in-machine-learning/index.html</loc>
-    <lastmod>2024-06-11T14:15:57.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/new-programming-for-data-science-app/index.html</loc>
-    <lastmod>2024-06-21T15:34:43.325Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/what-is-supervised-machine-learning/index.html</loc>
-    <lastmod>2024-06-25T09:18:25.996Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/how-the-decision-tree-classifier-works/index.html</loc>
-    <lastmod>2024-06-25T10:34:40.053Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/time-series-analysis/index.html</loc>
-    <lastmod>2024-05-18T05:20:23.785Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/bffill-and-ffill-for-handling-missing-data/index.html</loc>
-    <lastmod>2024-05-24T03:55:41.375Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/anova-for-feature-selection/75_bonus.html</loc>
-    <lastmod>2024-07-02T12:54:12.869Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/sklearn-unsupervised-learning/index.html</loc>
-    <lastmod>2024-05-22T08:09:17.066Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/programmer-puns/index.html</loc>
-    <lastmod>2024-05-16T08:01:43.701Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/budget-ml-deploy-options/index.html</loc>
-    <lastmod>2024-05-18T05:00:37.855Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/data-imputation/index.html</loc>
-    <lastmod>2024-06-04T14:35:57.582Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/top-5-operating-systems/index.html</loc>
-    <lastmod>2024-05-16T08:01:59.313Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/time-series-intro/index.html</loc>
-    <lastmod>2024-05-18T05:12:01.313Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/creating-venvs/index.html</loc>
-    <lastmod>2024-05-17T13:20:46.856Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/ml-model-deployment/index.html</loc>
-    <lastmod>2024-05-16T08:01:07.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/time-series-forecasting/index.html</loc>
-    <lastmod>2024-05-18T05:14:01.572Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/rethinking-chatgpt/index.html</loc>
-    <lastmod>2024-06-04T15:36:25.549Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/mr-robot-softwares/index.html</loc>
-    <lastmod>2024-05-16T08:01:25.230Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/handling-imbalanced-datasets/handling_imbalanced_data.html</loc>
-    <lastmod>2024-05-16T08:00:59.122Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/anova-for-feature-selection/index.html</loc>
-    <lastmod>2024-07-02T13:09:13.173Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/classification-metrics/index.html</loc>
-    <lastmod>2024-07-04T13:19:16.785Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2023/ml-model-deployment/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.579Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2023/creating-venvs/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.578Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2023/most-popular-deep-learning-frameworks/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.580Z</lastmod>
   </url>
   <url>
     <loc>https://blog.dataidea.org/posts/2023/top-5-operating-systems/index.html</loc>
@@ -181,28 +21,60 @@
     <lastmod>2024-07-30T17:18:35.573Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2024/time-series-analysis/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.606Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2024/python-classes-formatted-strings-errors-scopes/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.597Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2024/bffill-and-ffill-for-handling-missing-data/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.585Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2024/rethinking-chatgpt/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.598Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2024/classification-metrics/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.586Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2024/pytorch-deep-learning-course/index.html</loc>
+    <lastmod>2024-08-13T09:21:19.828Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/cost-function-in-machine-learning/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.587Z</lastmod>
   </url>
   <url>
     <loc>https://blog.dataidea.org/posts/2024/time-series-forecasting/index.html</loc>
     <lastmod>2024-07-30T17:18:35.606Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2024/overview-of-machine-learning/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.596Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2024/understanding-knearest-neighbors-regression/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.610Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/staying-motivated-as-a-programmer/index.html</loc>
+    <lastmod>2024-08-11T06:38:22.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/sklearn-unsupervised-learning/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.599Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/classification-metrics/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.586Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/sql-vs-nosql-databases/index.html</loc>
+    <lastmod>2024-08-11T06:38:39.708Z</lastmod>
   </url>
   <url>
     <loc>https://blog.dataidea.org/posts/2024/time-series-intro/index.html</loc>
     <lastmod>2024-07-30T17:18:35.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/time-series-analysis/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.606Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.572Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/new-programming-for-data-science-app/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.593Z</lastmod>
   </url>
   <url>
     <loc>https://blog.dataidea.org/posts/2024/fpl_standings/index.html</loc>
@@ -213,36 +85,36 @@
     <lastmod>2024-07-30T17:18:35.611Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2024/cost-function-in-machine-learning/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.587Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/data-imputation/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/new-programming-for-data-science-app/index.html</loc>
+    <loc>https://blog.dataidea.org/posts/2024/openai_suspends_her/index.html</loc>
     <lastmod>2024-07-30T17:18:35.593Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2024/what-is-supervised-machine-learning/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.611Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/sklearn-unsupervised-learning/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.599Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2024/hyperparameter-tuning-with-grid-search-cv/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.592Z</lastmod>
   </url>
   <url>
     <loc>https://blog.dataidea.org/posts/2024/anova-for-feature-selection/index.html</loc>
     <lastmod>2024-07-30T17:18:35.584Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2024/rethinking-chatgpt/index.html</loc>
+    <loc>https://blog.dataidea.org/posts/2024/bffill-and-ffill-for-handling-missing-data/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.585Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/what-is-supervised-machine-learning/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.611Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/data-imputation/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.dataidea.org/posts/2024/python-flow-control-full-tutorial/index.html</loc>
     <lastmod>2024-07-30T17:18:35.598Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2024/openai_suspends_her/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.593Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2024/overview-of-machine-learning/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.596Z</lastmod>
   </url>
   <url>
     <loc>https://blog.dataidea.org/posts/2022/what-is-demographic-data/index.html</loc>
@@ -257,43 +129,11 @@
     <lastmod>2024-07-30T17:18:35.576Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2023/programmer-puns/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.581Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2023/ml-model-deployment/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.579Z</lastmod>
   </url>
   <url>
-    <loc>https://blog.dataidea.org/posts/2023/mr-robot-softwares/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.580Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/understanding-knearest-neighbors-regression/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.610Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/hyperparameter-tuning-with-grid-search-cv/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.592Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2023/most-popular-deep-learning-frameworks/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.580Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/python-flow-control-full-tutorial/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.598Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/python-classes-formatted-strings-errors-scopes/index.html</loc>
-    <lastmod>2024-07-30T17:18:35.597Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/staying-motivated-as-a-programmer/index.html</loc>
-    <lastmod>2024-08-11T06:38:22.114Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/sql-vs-nosql-databases/index.html</loc>
-    <lastmod>2024-08-11T06:38:39.708Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.dataidea.org/posts/2024/pytorch-deep-learning-course/index.html</loc>
-    <lastmod>2024-08-13T09:21:19.828Z</lastmod>
+    <loc>https://blog.dataidea.org/posts/2023/creating-venvs/index.html</loc>
+    <lastmod>2024-07-30T17:18:35.578Z</lastmod>
   </url>
 </urlset>
