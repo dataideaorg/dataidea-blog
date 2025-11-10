@@ -46,5 +46,4 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Home: index.md
   - Blog: blog/index.md

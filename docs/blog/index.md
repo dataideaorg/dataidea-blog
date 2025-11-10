@@ -1,3 +1,5 @@
-# Blog
+# DataIdea Blog
 
-Welcome to the blog! Here you'll find articles about various topics.
+Welcome to the DataIdea Blog! Explore insightful articles on data science, AI, machine learning, and emerging technologies.
+
+Dive into our latest posts below or browse by category to find topics that interest you.
