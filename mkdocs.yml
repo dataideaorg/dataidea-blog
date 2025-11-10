@@ -25,6 +25,10 @@ theme:
 extra_css:
   - stylesheets/custom.css
 
+nav:
+  - Home: https://www.dataidea.org
+  - Blog: index.md
+
 copyright: Copyright &copy; 2025 DATAIDEA
 
 plugins:
