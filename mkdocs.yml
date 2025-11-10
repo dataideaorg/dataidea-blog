@@ -1,7 +1,7 @@
-site_name: My Blog
+site_name: DataIdea Blog
 site_description: A modern blog built with MkDocs and Material theme
-site_author: Your Name
-site_url: https://example.com
+site_author: DataIdea
+site_url: https://blog.dataidea.org
 
 theme:
   name: material
