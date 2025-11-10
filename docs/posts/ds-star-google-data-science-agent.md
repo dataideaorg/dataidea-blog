@@ -3,7 +3,7 @@ date: 2025-11-10
 categories:
   - AI/ML
   - Data Science
-  - Google Research
+author: Juma Shafara
 ---
 
 # DS-STAR: Google's Revolutionary Data Science Agent

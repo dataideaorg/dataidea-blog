@@ -1,10 +1,11 @@
-site_name: DataIdea Blog
+site_name: DATAIDEA Blog
 site_description: A modern blog built with MkDocs and Material theme
-site_author: DataIdea
+site_author: Juma Shafara
 site_url: https://blog.dataidea.org
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tracking
@@ -23,6 +24,8 @@ theme:
 
 extra_css:
   - stylesheets/custom.css
+
+copyright: Copyright &copy; 2025 DATAIDEA
 
 plugins:
   - search
