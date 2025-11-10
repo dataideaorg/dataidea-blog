@@ -20,10 +20,9 @@ theme:
   font:
     text: DM Sans
     code: DM Mono
-  custom_dir: docs
 
 extra_css:
-  - custom.css
+  - stylesheets/custom.css
 
 plugins:
   - search
