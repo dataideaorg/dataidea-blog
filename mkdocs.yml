@@ -27,10 +27,8 @@ extra_css:
 
 plugins:
   - search
-  - blog
-  - redirects:
-      redirect_maps:
-        'index.md': 'blog/index.md'
+  - blog:
+      blog_dir: .
 
 markdown_extensions:
   - attr_list
@@ -48,5 +46,3 @@ markdown_extensions:
   - toc:
       permalink: true
 
-nav:
-  - Blog: blog/index.md

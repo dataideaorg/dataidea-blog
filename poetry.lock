@@ -469,6 +469,21 @@ files = [
 ]
 
 [[package]]
+name = "mkdocs-redirects"
+version = "1.2.2"
+description = "A MkDocs plugin for dynamic page redirects to prevent broken links"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "mkdocs_redirects-1.2.2-py3-none-any.whl", hash = "sha256:7dbfa5647b79a3589da4401403d69494bd1f4ad03b9c15136720367e1f340ed5"},
+    {file = "mkdocs_redirects-1.2.2.tar.gz", hash = "sha256:3094981b42ffab29313c2c1b8ac3969861109f58b2dd58c45fc81cd44bfa0095"},
+]
+
+[package.dependencies]
+mkdocs = ">=1.1.1"
+
+[[package]]
 name = "packaging"
 version = "25.0"
 description = "Core utilities for Python packages"
@@ -809,4 +824,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "7ca9ec04e289fdda0bb6ae552964f28678d705ae072ad97e71546cc401d1713f"
+content-hash = "4530c711715817b17871b7a127a61206545cbf97563acab75aa60d827c8b0fd9"

@@ -8,9 +8,9 @@ categories:
 
 # DS-STAR: Google's Revolutionary Data Science Agent
 
-## Introduction
-
 Google researchers have unveiled **DS-STAR**, a groundbreaking AI agent that autonomously solves complex data science problems by converting natural language questions directly into executable code. This innovation represents a significant leap forward in democratizing data science and automating routine analytical workflows.
+
+<!-- more -->
 
 ## What is DS-STAR?
 
