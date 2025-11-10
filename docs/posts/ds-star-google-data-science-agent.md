@@ -89,20 +89,11 @@ DS-STAR achieved state-of-the-art results across multiple data science benchmark
 
 DS-STAR excels in various data science scenarios:
 
-### 1. **Exploratory Data Analysis**
-Quickly understand datasets through automated visualization and summary statistics without writing exploratory code.
-
-### 2. **Data Wrangling**
-Automatically clean, transform, and prepare messy datasets from multiple sources.
-
-### 3. **Statistical Analysis**
-Perform hypothesis testing and statistical modeling without deep statistical knowledge.
-
-### 4. **Machine Learning Model Development**
-Generate code for feature engineering, model training, and evaluation.
-
-### 5. **Data Visualization**
-Create insightful visualizations to communicate findings.
+1. **Exploratory Data Analysis**
+2. **Data Wrangling**
+3. **Statistical Analysis**
+4. **Machine Learning Model Development**
+5. **Data Visualization**
 
 ## Impact and Democratization
 
@@ -115,7 +106,7 @@ The true power of DS-STAR lies in its potential to democratize data science:
 
 ## Technical Advantages
 
-### Problem-Aware Planning
+#### Problem-Aware Planning
 The planner doesn't generate random code—it understands the nature of the data science problem and creates appropriate strategies.
 
 ### Adaptive Verification
