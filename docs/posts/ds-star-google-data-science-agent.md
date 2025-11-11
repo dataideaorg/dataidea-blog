@@ -3,8 +3,11 @@ date: 2025-11-10
 categories:
   - AI/ML
   - Data Science
-author: Juma Shafara
+author: Juma Shafara0
 ---
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
+     crossorigin="anonymous"></script>
 
 # DS-STAR: Google's Revolutionary Data Science Agent
 
