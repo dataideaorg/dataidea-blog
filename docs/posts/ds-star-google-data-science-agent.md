@@ -68,6 +68,19 @@ DS-STAR operates through four coordinated specialized agents:
 - **Verifier**: Evaluates plan adequacy and quality
 - **Router**: Determines when to correct steps or add new ones
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
+     crossorigin="anonymous"></script>
+<!-- inline_horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8076040302380238"
+     data-ad-slot="9021194372"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Benchmark Performance
 
 DS-STAR achieved state-of-the-art results across multiple data science benchmarks:
