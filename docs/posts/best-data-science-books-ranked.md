@@ -85,3 +85,5 @@ The key is to balance theory with practice. Reading alone won't make you a data 
 ## Final Thoughts
 
 Data science is a rapidly evolving field, and no single book can cover everything. The books in this ranking have stood the test of time because they teach fundamental concepts and approaches that remain valuable even as specific tools and techniques change. Invest in these foundational texts, work through the examples, and you'll build expertise that serves you throughout your data science career.
+
+<iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no" style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;"></iframe>

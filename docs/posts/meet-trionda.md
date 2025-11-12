@@ -114,3 +114,5 @@ The future of the beautiful game is here. And it's smarter than ever.
 ---
 
 *The 2026 FIFA World Cup will kick off on June 11, 2026, at Mexico City's Estadio Azteca, culminating on July 19 in East Rutherford, New Jersey.*
+
+<iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no" style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;"></iframe>

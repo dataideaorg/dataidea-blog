@@ -152,5 +152,4 @@ For more details on DS-STAR, visit the [official Google Research blog post](http
 
 *This post was updated on November 10, 2025 with the latest information about DS-STAR from Google's research team.*
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
-     crossorigin="anonymous"></script>
+<iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no" style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;"></iframe>
