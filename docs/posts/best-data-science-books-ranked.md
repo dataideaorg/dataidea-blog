@@ -7,7 +7,7 @@ author: Juma Shafara
 ---
 
 # The Definitive Ranking of Data Science Books You Need to Read
-
+![Photo by DATAIDEA](https://tii.imgix.net/production/articles/14050/17e19abc-96f7-42fc-be1a-4af87fd6b13e.jpg)
 Whether you're just starting your data science journey or looking to deepen your expertise, choosing the right books can accelerate your learning dramatically. After years in the field and countless conversations with data scientists at all levels, I've compiled this ranking of the most impactful data science books available today.
 <!-- more -->
 
