@@ -10,6 +10,7 @@ author: Juma Shafara
 
 # How AI is Revolutionizing Football Through the 2026 World Cup Ball
 ![Bellingham with Trionda](https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1080/704213_v2.jpg)
+
 When the 2026 FIFA World Cup kicks off next summer across North America, millions of fans will witness more than just incredible goals and dramatic moments. Hidden inside each Trionda match ball will be cutting-edge artificial intelligence technology that's quietly transforming how the world's most popular sport is played, officiated, and analyzed.
 <!-- more -->
 
