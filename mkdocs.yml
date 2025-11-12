@@ -1,5 +1,5 @@
 site_name: DATAIDEA Blog
-site_description: A modern blog built with MkDocs and Material theme
+site_description: Learn Programming for Data Science
 site_author: Juma Shafara
 site_url: https://blog.dataidea.org
 
@@ -28,6 +28,9 @@ extra_css:
 nav:
   - Home: https://www.dataidea.org
   - Blog: index.md
+  - YouTube Channel: https://youtube.com/@dataideaorg
+  - Free Course Resources: https://www.dataidea.org#courses
+  - Community: https://chat.whatsapp.com/GuCZRyJICgO3Y7MPvDQKhi
 
 copyright: Copyright &copy; 2025 DATAIDEA
 
