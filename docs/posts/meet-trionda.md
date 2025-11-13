@@ -59,18 +59,14 @@ The data could transform how we consume football, offering insights that were on
 
 Youth academies and development programs could eventually leverage similar technology to track and improve player technique. Understanding exactly how elite players interact with the ball—down to individual touches—creates a new template for skill development.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
-     crossorigin="anonymous"></script>
 <!-- inline_horizontal -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8076040302380238"
      data-ad-slot="9021194372"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+     data-full-width-responsive="true">
+</ins>
 
 ## The Broader Picture: Technology's Role in Football's Future
 

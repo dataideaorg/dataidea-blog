@@ -53,8 +53,6 @@ This accessible introduction to statistical learning strikes the perfect balance
 
 Rounding out the top ten is this essential read for understanding data science from a business perspective. Provost and Fawcett explain how to frame business problems as data science problems, evaluate model ROI, and communicate technical concepts to non-technical stakeholders. If you want to ensure your technical skills translate into business impact, this book shows you how to think about data science strategically rather than just tactically.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076040302380238"
-     crossorigin="anonymous"></script>
 <!-- inline_horizontal -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -62,9 +60,7 @@ Rounding out the top ten is this essential read for understanding data science f
      data-ad-slot="9021194372"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## Honorable Mentions
 
