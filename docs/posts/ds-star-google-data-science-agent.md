@@ -84,11 +84,11 @@ DS-STAR achieved state-of-the-art results across multiple data science benchmark
 
 ### Performance Improvements
 
-| Benchmark | DS-STAR | Previous SOTA | Improvement |
-|-----------|---------|---------------|-------------|
-| DABStep | 45.2% | 41.0% | +4.2% |
-| KramaBench | 44.7% | 39.8% | +4.9% |
-| DA-Code | 38.5% | 37.0% | +1.5% |
+| Benchmark  | DS-STAR | Previous SOTA | Improvement |
+|------------|---------|---------------|-------------|
+| DABStep    | 45.2%   | 41.0%         | +4.2%       |
+| KramaBench | 44.7%   | 39.8%         | +4.9%       |
+| DA-Code    | 38.5%   | 37.0%         | +1.5%       |
 
 ### Notable Achievements
 - **#1 on DABStep Leaderboard**: Currently ranked first among public benchmarks
