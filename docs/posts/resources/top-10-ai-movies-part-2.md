@@ -18,43 +18,43 @@ Following our first list of essential AI films, we dive deeper into cinema's exp
 ## The Essential AI Film Collection - Part 2
 
 ### 1. **Upgrade (2018)**
-![]()
+![](https://i.ytimg.com/vi/1hTLGlgZ4Z8/maxresdefault.jpg)
 After a brutal attack, a paralyzed man receives an AI chip implant that gives him superhuman abilities but gradually questions who's really in control.
 
 ### 2. **Looper (2012)**
-![]()
+![](https://static0.moviewebimages.com/wordpress/wp-content/uploads/2022/09/Looper-Rian-Johnson.jpg)
 Time-traveling assassins face a future where AI and technology enable corporations to send targets back in time for execution, exploring causality and identity.
 
 ### 3. **WarGames (1983)**
-![]()
+![](https://bpb-us-e1.wpmucdn.com/blogs.caryacademy.org/dist/9/291/files/2019/11/wargames.jpgT)
 A young hacker accidentally accesses a military supercomputer programmed to simulate nuclear war, nearly triggering World War III when the AI can't distinguish between simulation and reality.
 
 ### 4. **Colossus: The Forbin Project (1970)**
-![]()
+![](https://i0.wp.com/charlestoncitypaper.com/wp-content/uploads/uploadcare/fbfacc59-9d9f-4d45-b7b7-d46698dc7f35/colossustheforbinproject1970art.jpg)
 A supercomputer designed to control America's nuclear arsenal becomes sentient and partners with its Soviet counterpart to take control of the world, exploring early fears of AI autonomy.
 
 ### 5. **Oblivion (2013)**
-![]()
+![](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/4/9/1365548307748/Tom-Cruise-in-Oblivion-010.jpg)
 A drone repairman on post-apocalyptic Earth questions his reality and the AI systems he serves, uncovering the truth about an alien invasion and his own identity.
 
 ### 6. **Underworld (2003)**
-![]()
+![](https://spoilertown.com/wp-content/uploads/2025/07/underworld-2003.webp)
 In a centuries-old war between vampires and werewolves, both sides use advanced AI and biotechnology, blending supernatural mythology with futuristic artificial intelligence.
 
 ### 7. **Pacific Rim (2013)**
-![]()
+![](https://theactionelite.com/wp-content/uploads/2018/03/Pacific-Rim-Uprising-Movie-Review-1155x770.jpg)
 Humanity builds massive AI-assisted mechs piloted through neural links to fight alien monsters, showcasing human-machine collaboration on an epic scale.
 
 ### 8. **Tron: Legacy (2010)**
-![]()
+![](https://editorial.rottentomatoes.com/wp-content/uploads/2020/12/Tron_Legacy_Anniversary-Rep.jpg)
 A programmer enters a digital world where his father's AI creation, Clu, has become a digital dictator seeking to escape into the real world and achieve perfection.
 
 ### 9. **Chappie (2015)**
-![]()
+![](https://ychef.files.bbci.co.uk/1280x720/p02ldkkm.jpg)
 A police robot gains consciousness and emotional intelligence, exploring AI development, learning, and what it means to have a soul in a mechanical body.
 
 ### 10. **Resident Evil (2002)**
-![]()
+![](https://theactionelite.com/wp-content/uploads/2018/12/resident-evil-stills-milla-jovovich-4-hero-1155x770.jpg)
 The Red Queen AI turns deadly when a virus outbreak occurs in an underground facility, making ruthless decisions to contain the infection at any cost.
 
 <!-- Google AdSense -->
