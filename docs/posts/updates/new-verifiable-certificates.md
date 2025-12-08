@@ -16,7 +16,7 @@ tags:
 
 # Introducing Digital Certificates
 
-![Digital Certificate](https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200)
+![Digital Certificate](https://images.unsplash.com/photo-1614036417651-efe5912149d8)
 
 We're thrilled to announce that all our courses now come with VERIFIABLE CERTIFICATES! 
 
