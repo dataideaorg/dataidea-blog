@@ -19,7 +19,7 @@ tags:
 ![Digital Certificate](https://images.unsplash.com/photo-1614036417651-efe5912149d8)
 
 We're thrilled to announce that all our courses now come with VERIFIABLE CERTIFICATES! 
-<!-- more -->
+<!-- more -->  
 
 Upon completing any course, you'll receive:
 
