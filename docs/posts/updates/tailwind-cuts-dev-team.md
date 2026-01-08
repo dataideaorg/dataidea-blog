@@ -30,6 +30,7 @@ Despite record downloads and GitHub activity, **Tailwind’s revenue reportedly 
 AI coding tools like ChatGPT, GitHub Copilot, Cursor, and Claude are trained on Tailwind’s public documentation and examples. Developers can now generate complete Tailwind layouts, components, and configurations **without ever opening the official docs**.
 
 As a result:
+
 - Documentation traffic dropped significantly (around 40%)
 - Fewer developers saw Tailwind’s paid offerings
 - Conversion to paid products collapsed
@@ -47,6 +48,7 @@ Tailwind’s situation highlights a broader issue facing open-source companies:
 > When AI systems learn from free documentation and deliver answers directly, the original creators lose traffic, visibility, and revenue.
 
 This creates a paradox where:
+
 - Adoption increases
 - Brand recognition grows
 - Financial sustainability worsens
