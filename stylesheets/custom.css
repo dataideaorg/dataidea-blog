@@ -1,0 +1,314 @@
+/* IMPORT DM SANS, DM MONO, AND DM SERIF DISPLAY FONTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:wght@400;500&display=swap');
+
+/* PURE BLACK AND GRAY THEME - DARK MODE FORCED */
+
+html {
+  color-scheme: dark !important;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+code,
+pre,
+.hljs,
+.md-typeset code,
+.md-typeset pre {
+  font-family: 'DM Mono', monospace !important;
+}
+
+* {
+  --md-primary-fg-color: #ffffff !important;
+  --md-primary-bg-color: #000000 !important;
+  --md-accent-fg-color: #ffffff !important;
+  --md-accent-bg-color: #333333 !important;
+}
+
+:root {
+  --md-primary-fg-color: #ffffff !important;
+  --md-primary-bg-color: #000000 !important;
+  --md-accent-fg-color: #ffffff !important;
+  --md-accent-bg-color: #333333 !important;
+  --md-default-bg-color: #0d0d0d !important;
+  --md-default-fg-color: #d0d0d0 !important;
+  --md-code-bg-color: #1a1a1a !important;
+  --md-code-fg-color: #ffffff !important;
+  --md-typeset-a-color: #ffffff !important;
+}
+
+html, body {
+  background-color: #0d0d0d !important;
+  color: #d0d0d0 !important;
+}
+
+/* HEADER - PURE BLACK */
+.md-header {
+  background-color: #000000 !important;
+  border-bottom: 1px solid #333333 !important;
+  color: #ffffff !important;
+}
+
+.md-header__inner {
+  background-color: #000000 !important;
+}
+
+.md-header__title {
+  color: #ffffff !important;
+}
+
+/* Hide theme toggle completely */
+.md-header__button[for="__palettes"],
+.md-header__button[for="__palette"],
+.md-header__button[aria-label="Toggle light/dark mode"],
+.md-header__button[aria-label*="theme"],
+.md-header__button[aria-label*="palette"],
+.md-header__button[aria-label*="dark"],
+.md-header__button[aria-label*="light"],
+input#__palette {
+  display: none !important;
+}
+
+/* Main content background */
+.md-main {
+  background-color: #0d0d0d !important;
+}
+
+.md-main__inner {
+  background-color: #0d0d0d !important;
+}
+
+.md-content {
+  background-color: #0d0d0d !important;
+  color: #d0d0d0 !important;
+}
+
+/* Sidebar */
+.md-sidebar {
+  background-color: #0d0d0d !important;
+}
+
+.md-nav {
+  background-color: #0d0d0d !important;
+}
+
+.md-nav__link {
+  color: #b0b0b0 !important;
+  background-color: transparent !important;
+}
+
+.md-nav__link:hover {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+.md-nav__link--active {
+  color: #ffffff !important;
+  background-color: #1a1a1a !important;
+}
+
+/* Typeset styling */
+.md-typeset {
+  color: #d0d0d0 !important;
+}
+
+/* Level 1 headings - DM Serif Display */
+.md-typeset h1 {
+  color: #ffffff !important;
+  font-family: 'DM Serif Display', serif !important;
+  font-size: 2.5rem !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Level 2-6 headings - DM Sans */
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  color: #ffffff !important;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+/* Links - WHITE NOT BLUE */
+.md-typeset a {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+.md-typeset a:hover {
+  color: #ffffff !important;
+  opacity: 0.8 !important;
+}
+
+/* Code blocks */
+.md-typeset code {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border: 1px solid #333333 !important;
+}
+
+.md-typeset pre {
+  background-color: #0a0a0a !important;
+  border: 1px solid #333333 !important;
+}
+
+.hljs {
+  background-color: #0a0a0a !important;
+  color: #d0d0d0 !important;
+}
+
+.hljs-attr, .hljs-attribute {
+  color: #ffffff !important;
+}
+
+.hljs-string {
+  color: #b8b8ff !important;
+}
+
+.hljs-number {
+  color: #ffb8b8 !important;
+}
+
+.hljs-literal {
+  color: #b8ffb8 !important;
+}
+
+/* Tables */
+.md-typeset table {
+  border-collapse: collapse !important;
+}
+
+.md-typeset thead tr {
+  background-color: #1a1a1a !important;
+}
+
+.md-typeset th,
+.md-typeset td {
+  border: 1px solid #333333 !important;
+  color: #d0d0d0 !important;
+}
+
+.md-typeset tbody tr:hover {
+  background-color: #111111 !important;
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+  border-left: 4px solid #555555 !important;
+  background-color: #111111 !important;
+  color: #b0b0b0 !important;
+}
+
+/* Search */
+.md-search__inner {
+  background-color: #111111 !important;
+}
+
+.md-search__input {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border: 1px solid #333333 !important;
+}
+
+.md-search__input::placeholder {
+  color: #888888 !important;
+}
+
+/* Tabs */
+.md-tabs {
+  background-color: #000000 !important;
+  border-bottom: 1px solid #333333 !important;
+}
+
+.md-tabs__link {
+  color: #888888 !important;
+}
+
+.md-tabs__link--active {
+  color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+}
+
+.md-tabs__link:hover {
+  color: #ffffff !important;
+  background-color: #111111 !important;
+}
+
+/* Buttons */
+.md-button {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+  border: 1px solid #555555 !important;
+}
+
+.md-button:hover {
+  background-color: #555555 !important;
+}
+
+/* Inputs */
+input,
+textarea,
+select {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border: 1px solid #333333 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #555555 !important;
+  outline: none !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* Hide any remaining blue colors */
+[style*="color: rgb(63, 81, 181)"],
+[style*="color: #3f51b5"],
+[style*="color: rgb(25, 103, 210)"],
+[style*="color: #1967d2"],
+[style*="background-color: rgb(63, 81, 181)"],
+[style*="background-color: #3f51b5"],
+[style*="background-color: rgb(25, 103, 210)"],
+[style*="background-color: #1967d2"] {
+  color: #ffffff !important;
+  background-color: #333333 !important;
+}
+
+/* Blog specific */
+.blog-meta,
+.md-typeset .blog-meta {
+  color: #888888 !important;
+}
+
+/* Remove light mode indicator */
+html[data-md-color-scheme="default"] {
+  display: none !important;
+}
+
+[data-md-color-scheme="default"],
+[data-md-color-scheme="light"] {
+  display: none !important;
+}
