@@ -61,5 +61,14 @@ Tailwind CSS itself isn’t going anywhere. The framework remains widely used an
 
 The story of Tailwind is no longer just about CSS. It’s about how software businesses survive when **knowledge is free, AI is instant, and attention never reaches the source**.
 
+<h2>What's on your mind? Put it in the comments!</h2>
+<script src="https://utteranc.es/client.js"
+        repo="dataideaorg/dataidea-science"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
 <iframe src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no" style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;"></iframe>
 
